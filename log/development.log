@@ -1,0 +1,940 @@
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2016-02-21 13:08:56 +0100
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 3ms (Views: 3.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/about" for 127.0.0.1 at 2016-02-21 14:08:56 +0100
+  Processing by PagesController#about as HTML
+Rendered pages/about.html.erb within layouts/application (11.3ms)
+Completed 200 OK in 14ms (Views: 13.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/about" for 127.0.0.1 at 2016-02-21 14:19:06 +0100
+  Processing by PagesController#about as HTML
+Rendered pages/about.html.erb (0.3ms)
+Completed 200 OK in 2ms (Views: 2.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/about" for 127.0.0.1 at 2016-02-21 14:31:06 +0100
+  Processing by PagesController#about as HTML
+Rendered pages/about.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 13ms (Views: 12.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2016-02-21 14:31:10 +0100
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/contact" for 127.0.0.1 at 2016-02-21 14:31:17 +0100
+  Processing by PagesController#contact as HTML
+Rendered pages/contact.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2016-02-21 18:08:33 +0100
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (6.1ms)
+Completed   in 20ms
+
+ActionView::Template::Error (undefined local variable or method `title' for #<#<Class:0x007f23f4a12d08>:0x007f23f4a11070>):
+    1: <!DOCTYPE html>
+    2: <html>
+    3:   <head>
+    4:     <title><%= title %></title>
+    5:     <%= csrf_meta_tag %>
+    6:     <!--[if lt IE 9]>
+    7:     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  app/views/layouts/application.html.erb:4:in `_app_views_layouts_application_html_erb___918980982153649319_69896202832000_978014678126131360'
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.5ms)
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (17.2ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2016-02-21 18:09:33 +0100
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 5ms (Views: 4.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/custom.css" for 127.0.0.1 at 2016-02-21 18:09:33 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/custom.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at 2016-02-21 18:09:33 +0100
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2016-02-21 18:10:22 +0100
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 15ms (Views: 14.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/custom.css" for 127.0.0.1 at 2016-02-21 18:10:22 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/custom.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at 2016-02-21 18:10:22 +0100
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2016-02-21 18:10:47 +0100
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/custom.css" for 127.0.0.1 at 2016-02-21 18:10:47 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/custom.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.8ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at 2016-02-21 18:10:47 +0100
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at 2016-02-21 18:12:05 +0100
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2016-02-21 18:12:31 +0100
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 3ms (Views: 3.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/custom.css" for 127.0.0.1 at 2016-02-21 18:12:31 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/custom.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2016-02-21 18:15:38 +0100
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 14ms (Views: 13.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at 2016-02-21 18:15:38 +0100
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2016-02-21 18:16:23 +0100
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at 2016-02-21 18:16:23 +0100
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2016-02-21 18:17:44 +0100
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 3ms (Views: 3.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at 2016-02-21 18:17:44 +0100
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2016-02-21 18:18:29 +0100
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at 2016-02-21 18:18:29 +0100
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2016-02-21 18:30:59 +0100
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (5.7ms)
+Completed   in 20ms
+
+ActionView::Template::Error (undefined local variable or method `title' for #<#<Class:0x007f28b09b8fe0>:0x007f28b0a62978>):
+    1: <!DOCTYPE html>
+    2: <html>
+    3:   <head>
+    4:     <title><%= title %></title>
+    5:     <%= csrf_meta_tag %>
+    6:     <%= render 'layouts/stylesheets' %>
+    7:   </head>
+  app/views/layouts/application.html.erb:4:in `_app_views_layouts_application_html_erb__2428766471525727350_69906365105660__2876242016521302344'
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.6ms)
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (17.4ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2016-02-21 18:31:13 +0100
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (0.6ms)
+Rendered layouts/_header.html.erb (0.4ms)
+Rendered layouts/_footer.html.erb (0.2ms)
+Rendered pages/home.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 6ms (Views: 5.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at 2016-02-21 18:31:13 +0100
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2016-02-21 19:03:48 +0100
+
+ActionController::RoutingError (No route matches "/pages/home"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-02-21 19:03:54 +0100
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (0.4ms)
+Rendered layouts/_footer.html.erb (0.3ms)
+Rendered pages/home.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 7ms (Views: 6.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at 2016-02-21 19:03:54 +0100
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-02-21 19:12:50 +0100
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (0.6ms)
+Rendered layouts/_header.html.erb (0.7ms)
+Rendered layouts/_footer.html.erb (0.5ms)
+Rendered pages/home.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 16ms (Views: 16.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at 2016-02-21 19:12:51 +0100
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2016-02-21 19:12:55 +0100
+  Processing by PagesController#about as HTML
+Rendered layouts/_stylesheets.html.erb (0.7ms)
+Rendered layouts/_header.html.erb (0.7ms)
+Rendered layouts/_footer.html.erb (0.5ms)
+Rendered pages/about.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 6ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at 2016-02-21 19:12:55 +0100
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2016-02-21 19:12:58 +0100
+  Processing by PagesController#contact as HTML
+Rendered layouts/_stylesheets.html.erb (0.6ms)
+Rendered layouts/_header.html.erb (0.7ms)
+Rendered layouts/_footer.html.erb (0.4ms)
+Rendered pages/contact.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 6ms (Views: 5.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at 2016-02-21 19:12:58 +0100
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-02-21 19:13:05 +0100
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (0.5ms)
+Rendered layouts/_header.html.erb (0.7ms)
+Rendered layouts/_footer.html.erb (0.4ms)
+Rendered pages/home.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 6ms (Views: 5.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at 2016-02-21 19:13:05 +0100
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/help" for 127.0.0.1 at 2016-02-21 19:13:06 +0100
+  Processing by PagesController#help as HTML
+Rendered layouts/_stylesheets.html.erb (0.7ms)
+Rendered layouts/_header.html.erb (0.8ms)
+Rendered layouts/_footer.html.erb (0.5ms)
+Rendered pages/help.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 7ms (Views: 6.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at 2016-02-21 19:13:06 +0100
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-02-21 19:13:10 +0100
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (0.6ms)
+Rendered layouts/_header.html.erb (0.8ms)
+Rendered layouts/_footer.html.erb (0.5ms)
+Rendered pages/home.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 6ms (Views: 6.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at 2016-02-21 19:13:10 +0100
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-02-21 21:09:29 +0100
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (0.6ms)
+Rendered layouts/_header.html.erb (0.7ms)
+Rendered layouts/_footer.html.erb (0.6ms)
+Rendered pages/home.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 7ms (Views: 6.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at 2016-02-21 21:09:29 +0100
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.5ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2016-02-21 21:09:31 +0100
+  Processing by UsersController#new as HTML
+Rendered layouts/_stylesheets.html.erb (0.6ms)
+Rendered layouts/_header.html.erb (0.8ms)
+Rendered layouts/_footer.html.erb (0.5ms)
+Rendered users/new.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 7ms (Views: 7.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at 2016-02-21 21:09:31 +0100
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2016-02-21 21:09:33 +0100
+  Processing by PagesController#about as HTML
+Rendered layouts/_stylesheets.html.erb (0.6ms)
+Rendered layouts/_header.html.erb (0.8ms)
+Rendered layouts/_footer.html.erb (0.4ms)
+Rendered pages/about.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 6ms (Views: 5.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at 2016-02-21 21:09:33 +0100
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2016-02-21 21:09:34 +0100
+  Processing by PagesController#contact as HTML
+Rendered layouts/_stylesheets.html.erb (0.6ms)
+Rendered layouts/_header.html.erb (1.0ms)
+Rendered layouts/_footer.html.erb (0.5ms)
+Rendered pages/contact.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 6ms (Views: 6.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at 2016-02-21 21:09:34 +0100
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-02-21 21:09:36 +0100
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (0.6ms)
+Rendered layouts/_header.html.erb (0.7ms)
+Rendered layouts/_footer.html.erb (0.5ms)
+Rendered pages/home.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 6ms (Views: 6.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at 2016-02-21 21:09:36 +0100
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/help" for 127.0.0.1 at 2016-02-21 21:09:36 +0100
+  Processing by PagesController#help as HTML
+Rendered layouts/_stylesheets.html.erb (0.9ms)
+Rendered layouts/_header.html.erb (0.9ms)
+Rendered layouts/_footer.html.erb (0.6ms)
+Rendered pages/help.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 7ms (Views: 6.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at 2016-02-21 21:09:37 +0100
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-02-21 21:09:37 +0100
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (0.5ms)
+Rendered layouts/_header.html.erb (0.6ms)
+Rendered layouts/_footer.html.erb (0.4ms)
+Rendered pages/home.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 6ms (Views: 5.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at 2016-02-21 21:09:37 +0100
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-02-21 21:09:39 +0100
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (1.1ms)
+Rendered layouts/_header.html.erb (1.5ms)
+Rendered layouts/_footer.html.erb (0.6ms)
+Rendered pages/home.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 8ms (Views: 8.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at 2016-02-21 21:09:39 +0100
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2016-02-21 21:09:40 +0100
+  Processing by UsersController#new as HTML
+Rendered layouts/_stylesheets.html.erb (1.1ms)
+Rendered layouts/_header.html.erb (1.4ms)
+Rendered layouts/_footer.html.erb (0.6ms)
+Rendered users/new.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 9ms (Views: 8.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at 2016-02-21 21:09:40 +0100
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2016-02-21 21:14:44 +0100
+  Processing by UsersController#new as HTML
+Rendered layouts/_stylesheets.html.erb (0.6ms)
+Rendered layouts/_header.html.erb (0.7ms)
+Rendered layouts/_footer.html.erb (0.4ms)
+Rendered users/new.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 6ms (Views: 5.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at 2016-02-21 21:14:45 +0100
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-02-21 21:14:54 +0100
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (0.6ms)
+Rendered layouts/_header.html.erb (0.6ms)
+Rendered layouts/_footer.html.erb (0.4ms)
+Rendered pages/home.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 6ms (Views: 5.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at 2016-02-21 21:14:54 +0100
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2016-02-21 21:14:55 +0100
+  Processing by UsersController#new as HTML
+Rendered layouts/_stylesheets.html.erb (0.6ms)
+Rendered layouts/_header.html.erb (0.8ms)
+Rendered layouts/_footer.html.erb (0.5ms)
+Rendered users/new.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 6ms (Views: 5.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at 2016-02-21 21:14:55 +0100
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+  [1m[36mSQL (0.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m  select sqlite_version(*)
+  [1m[36mSQL (100.2ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35mSQL (0.2ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36mSQL (91.4ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mSQL (0.5ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.3ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.2ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations"
+Migrating to CreateUsers (20160221204207)
+  [1m[36mSQL (0.3ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "nom" varchar(255), "email" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20160221204207')
+  [1m[36mSQL (0.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations"
+  [1m[36mSQL (0.1ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.0ms)[0m  PRAGMA index_list("users")
+  [1m[36mSQL (0.4ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO "users" ("nom", "email", "created_at", "updated_at") VALUES ('Michael Hartl', 'mhartl@example.com', '2016-02-27 16:02:06.784169', '2016-02-27 16:02:06.784169')
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO "users" ("nom", "email", "created_at", "updated_at") VALUES ('A Nother', 'another@example.org', '2016-02-27 16:03:22.997783', '2016-02-27 16:03:22.997783')[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO "users" ("nom", "email", "created_at", "updated_at") VALUES ('Foo', 'foo@bar.com', '2016-02-27 16:04:05.017271', '2016-02-27 16:04:05.017271')
+  [1m[36mAREL (0.2ms)[0m  [1mDELETE FROM "users" WHERE "users"."id" = 3[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO "users" ("nom", "email", "created_at", "updated_at") VALUES ('Foo', 'foo@bar.com', '2016-02-27 16:11:00.400758', '2016-02-27 16:11:00.400758')
+  [1m[36mAREL (0.2ms)[0m  [1mDELETE FROM "users" WHERE "users"."id" = 4[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 3 LIMIT 1[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 3 LIMIT 1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."email" = 'mhartl@example.com' LIMIT 1[0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users"
+  [1m[36mAREL (0.3ms)[0m  [1mUPDATE "users" SET "email" = 'mhartl@example.net', "updated_at" = '2016-02-27 16:27:33.868361' WHERE "users"."id" = 1[0m
+  [1m[36mSQL (0.3ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+  [1m[35mSQL (0.2ms)[0m  select sqlite_version(*)
+  [1m[36mSQL (0.1ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (86.8ms)[0m  CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "nom" varchar(255), "email" varchar(255), "created_at" datetime, "updated_at" datetime) 
+  [1m[36mSQL (0.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (74.8ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("schema_migrations")[0m
+  [1m[35mSQL (108.6ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36mSQL (0.3ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.2ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36mSQL (73.8ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20160221204207')[0m
+  [1m[36mSQL (0.4ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+Migrating to CreateUsers (20160221204207)
+Migrating to AddEmailUniquenessIndex (20160228113541)
+  [1m[35mSQL (0.0ms)[0m  select sqlite_version(*)
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("users")[0m
+  [1m[35mSQL (0.3ms)[0m  CREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20160228113541')[0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+  [1m[35mSQL (0.1ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("users")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_users_on_email')
+
+
+Started GET "/" for 127.0.0.1 at 2016-02-28 12:40:46 +0100
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (0.6ms)
+Rendered layouts/_header.html.erb (0.7ms)
+Rendered layouts/_footer.html.erb (0.5ms)
+Rendered pages/home.html.erb within layouts/application (26.0ms)
+Completed 200 OK in 29ms (Views: 28.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at 2016-02-28 12:40:46 +0100
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+  [1m[36mSQL (0.1ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users"."id" FROM "users" WHERE (LOWER("users"."email") = LOWER('mhartl@example.com')) LIMIT 1
+  [1m[36mAREL (0.2ms)[0m  [1mINSERT INTO "users" ("nom", "email", "created_at", "updated_at") VALUES ('Michael Hartl', 'mhartl@example.com', '2016-02-28 13:37:56.453375', '2016-02-28 13:37:56.453375')[0m
+
+
+Started GET "/users/1" for 127.0.0.1 at 2016-02-28 14:46:18 +0100
+  Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mSQL (0.4ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+Rendered layouts/_stylesheets.html.erb (0.6ms)
+Rendered layouts/_header.html.erb (0.7ms)
+Rendered layouts/_footer.html.erb (0.4ms)
+Rendered users/show.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 41ms (Views: 11.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at 2016-02-28 14:46:18 +0100
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2016-02-28 14:47:05 +0100
+
+AbstractController::ActionNotFound (The action 'index' could not be found for UsersController):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.5ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2016-02-28 14:47:13 +0100
+  Processing by UsersController#new as HTML
+Rendered layouts/_stylesheets.html.erb (0.7ms)
+Rendered layouts/_header.html.erb (0.9ms)
+Rendered layouts/_footer.html.erb (0.6ms)
+Rendered users/new.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 8ms (Views: 7.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at 2016-02-28 14:47:13 +0100
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2016-02-28 14:47:22 +0100
+  Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+Rendered layouts/_stylesheets.html.erb (0.6ms)
+Rendered layouts/_header.html.erb (1.0ms)
+Rendered layouts/_footer.html.erb (0.5ms)
+Rendered users/show.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 31ms (Views: 10.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at 2016-02-28 14:47:22 +0100
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-02-28 15:01:35 +0100
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (0.8ms)
+Rendered layouts/_footer.html.erb (0.5ms)
+Rendered pages/home.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at 2016-02-28 15:01:36 +0100
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2016-02-28 15:01:36 +0100
+  Processing by UsersController#new as HTML
+Rendered layouts/_stylesheets.html.erb (0.6ms)
+Rendered layouts/_header.html.erb (0.7ms)
+Rendered layouts/_footer.html.erb (0.4ms)
+Rendered users/new.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 6ms (Views: 6.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at 2016-02-28 15:01:36 +0100
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-02-28 16:08:29 +0100
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (0.6ms)
+Rendered layouts/_header.html.erb (0.6ms)
+Rendered layouts/_footer.html.erb (0.4ms)
+Rendered pages/home.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 6ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at 2016-02-28 16:08:29 +0100
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-02-28 20:11:38 +0100
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (0.9ms)
+Rendered layouts/_header.html.erb (0.8ms)
+Rendered layouts/_footer.html.erb (0.5ms)
+Rendered pages/home.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 8ms (Views: 8.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at 2016-02-28 20:11:39 +0100
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-07 22:19:20 +0100
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (0.6ms)
+Rendered layouts/_header.html.erb (0.7ms)
+Rendered layouts/_footer.html.erb (0.5ms)
+Rendered pages/home.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 7ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at 2016-03-07 22:19:21 +0100
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2016-03-07 22:19:26 +0100
+  Processing by UsersController#new as HTML
+Rendered layouts/_stylesheets.html.erb (0.5ms)
+Rendered layouts/_header.html.erb (0.7ms)
+Rendered layouts/_footer.html.erb (0.4ms)
+Rendered users/new.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 6ms (Views: 5.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at 2016-03-07 22:19:26 +0100
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-07 22:19:29 +0100
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (0.6ms)
+Rendered layouts/_header.html.erb (0.7ms)
+Rendered layouts/_footer.html.erb (0.5ms)
+Rendered pages/home.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 6ms (Views: 6.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at 2016-03-07 22:19:29 +0100
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-07 22:19:31 +0100
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (0.6ms)
+Rendered layouts/_header.html.erb (0.7ms)
+Rendered layouts/_footer.html.erb (0.5ms)
+Rendered pages/home.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at 2016-03-07 22:19:31 +0100
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/help" for 127.0.0.1 at 2016-03-07 22:19:32 +0100
+  Processing by PagesController#help as HTML
+Rendered layouts/_stylesheets.html.erb (0.6ms)
+Rendered layouts/_header.html.erb (0.8ms)
+Rendered layouts/_footer.html.erb (0.5ms)
+Rendered pages/help.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at 2016-03-07 22:19:32 +0100
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2016-03-07 22:19:38 +0100
+  Processing by PagesController#contact as HTML
+Rendered layouts/_stylesheets.html.erb (0.6ms)
+Rendered layouts/_header.html.erb (0.7ms)
+Rendered layouts/_footer.html.erb (0.4ms)
+Rendered pages/contact.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 6ms (Views: 5.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at 2016-03-07 22:19:38 +0100
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2016-03-07 22:19:40 +0100
+  Processing by PagesController#about as HTML
+Rendered layouts/_stylesheets.html.erb (0.6ms)
+Rendered layouts/_header.html.erb (0.8ms)
+Rendered layouts/_footer.html.erb (0.5ms)
+Rendered pages/about.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 6ms (Views: 6.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at 2016-03-07 22:19:40 +0100
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)

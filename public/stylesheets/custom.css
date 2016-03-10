@@ -112,3 +112,8 @@ footer {
 footer nav {
   float: none;
 }
+
+/* W3C Validator */
+.validator {
+  margin-top: 2%;
+}

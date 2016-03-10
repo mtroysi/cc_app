@@ -5,7 +5,7 @@ require 'spec_helper'
 describe User do
 
   before(:each) do
-    @attr = { :nom => "Example User", :email => "user@example.com", :datnaiss => "1994-05-26", :nbfilms => 5 }
+    @attr = { :nom => "Example User", :email => "user@example.com", :datnaiss => "1994-05-26", :nbfilms => 5, :moreBooks => true }
   end
 
   it "devrait créer une nouvelle instance dotée des attributs valides" do
@@ -30,6 +30,11 @@ describe User do
   it "exige un nombre de films" do
     no_nbfilms_user = User.new(@attr.merge(:nbfilms => ""))
     no_nbfilms_user.should_not be_valid
+  end
+
+  it "exige valeur j'aimerais lire plus de livres" do
+    no_moreBooks_user = User.new(@attr.merge(:moreBooks => ""))
+    no_moreBooks_user.should_not be_valid
   end
 
   it "devrait rejeter les noms trop longs" do

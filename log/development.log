@@ -1615,3 +1615,365 @@ ActionController::RoutingError (No route matches "/images/logo.png"):
   
 
 Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+  [1m[36mSQL (0.3ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+Migrating to CreateUsers (20160221204207)
+Migrating to AddEmailUniquenessIndex (20160228113541)
+Migrating to AddDatnaissToUsers (20160308125210)
+Migrating to AddNbfilmsToUsers (20160310121530)
+Migrating to AddMoreBooksToUsers (20160310165229)
+  [1m[35mSQL (0.0ms)[0m  select sqlite_version(*)
+  [1m[36mSQL (11.3ms)[0m  [1mALTER TABLE "users" ADD "moreBooks" boolean[0m
+  [1m[35mSQL (2.6ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20160310165229')
+  [1m[36mSQL (0.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations"
+  [1m[36mSQL (0.1ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_list("users")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_users_on_email')[0m
+  [1m[36mSQL (0.3ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+  [1m[35mSQL (0.2ms)[0m  select sqlite_version(*)
+  [1m[36mSQL (0.1ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (88.4ms)[0m  CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "nom" varchar(255), "email" varchar(255), "created_at" datetime, "updated_at" datetime, "datnaiss" date, "nbfilms" integer, "moreBooks" boolean) 
+  [1m[36mSQL (0.2ms)[0m  [1mPRAGMA index_list("users")[0m
+  [1m[35mSQL (82.8ms)[0m  CREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")
+  [1m[36mSQL (0.4ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (91.0ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36mSQL (0.2ms)[0m  [1mPRAGMA index_list("schema_migrations")[0m
+  [1m[35mSQL (74.6ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36mSQL (0.4ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.2ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36mSQL (73.4ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20160310165229')[0m
+  [1m[35mSQL (108.9ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20160221204207')
+  [1m[36mSQL (75.0ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20160310121530')[0m
+  [1m[35mSQL (75.1ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20160228113541')
+  [1m[36mSQL (92.4ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20160308125210')[0m
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users" LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users"."id" FROM "users" WHERE (LOWER("users"."email") = LOWER('mhartl@example.com')) AND ("users".id <> 1) LIMIT 1[0m
+
+
+Started GET "/users/1" for 127.0.0.1 at 2016-03-10 18:08:51 +0100
+  Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mSQL (0.3ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+Rendered layouts/_stylesheets.html.erb (0.6ms)
+Rendered layouts/_header.html.erb (0.7ms)
+Rendered layouts/_footer.html.erb (0.4ms)
+Rendered users/show.html.erb within layouts/application (10.3ms)
+Completed 200 OK in 43ms (Views: 12.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at 2016-03-10 18:08:52 +0100
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2016-03-10 18:09:04 +0100
+  Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+Rendered layouts/_stylesheets.html.erb (0.6ms)
+Rendered layouts/_header.html.erb (0.7ms)
+Rendered layouts/_footer.html.erb (0.4ms)
+Rendered users/show.html.erb within layouts/application (21.0ms)
+Completed 200 OK in 32ms (Views: 22.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at 2016-03-10 18:09:04 +0100
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users" LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users"."id" FROM "users" WHERE (LOWER("users"."email") = LOWER('mhartl@example.com')) AND ("users".id <> 1) LIMIT 1[0m
+  [1m[35mAREL (0.2ms)[0m  UPDATE "users" SET "moreBooks" = 't', "updated_at" = '2016-03-10 17:09:39.771238' WHERE "users"."id" = 1
+
+
+Started GET "/users/1" for 127.0.0.1 at 2016-03-10 18:09:53 +0100
+  Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mSQL (0.3ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+Rendered layouts/_stylesheets.html.erb (0.6ms)
+Rendered layouts/_header.html.erb (0.7ms)
+Rendered layouts/_footer.html.erb (0.6ms)
+Rendered users/show.html.erb within layouts/application (10.6ms)
+Completed 200 OK in 42ms (Views: 12.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at 2016-03-10 18:09:53 +0100
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2016-03-10 18:16:20 +0100
+  Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+Rendered users/show.html.erb within layouts/application (41.9ms)
+Completed   in 56ms
+
+ActionView::Template::Error (undefined local variable or method `oui' for #<#<Class:0x007f8ae4cf0280>:0x007f8ae4cee700>):
+    2: Adresse mail : <%= @user.email %> <br />
+    3: Âge : <%= Date.today.year-@user.datnaiss.year %> ans <br />
+    4: Nombre moyen de films vus par semaine : <%= @user.nbfilms %> <br />
+    5: J'aimerais lire plus de livres : <%= (@user.moreBooks == true)? oui : non %> <br />
+  app/views/users/show.html.erb:5:in `_app_views_users_show_html_erb__3041150713721345479_70117260528680_3693949548269979173'
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.7ms)
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (13.2ms)
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (20.3ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2016-03-10 18:19:06 +0100
+  Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+Rendered layouts/_stylesheets.html.erb (0.6ms)
+Rendered layouts/_header.html.erb (0.7ms)
+Rendered layouts/_footer.html.erb (0.4ms)
+Rendered users/show.html.erb within layouts/application (8.7ms)
+Completed 200 OK in 19ms (Views: 10.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at 2016-03-10 18:19:06 +0100
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2016-03-10 18:19:27 +0100
+  Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+Rendered layouts/_stylesheets.html.erb (0.6ms)
+Rendered layouts/_header.html.erb (0.8ms)
+Rendered layouts/_footer.html.erb (0.5ms)
+Rendered users/show.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 21ms (Views: 11.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at 2016-03-10 18:19:27 +0100
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2016-03-10 18:20:15 +0100
+  Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+Rendered layouts/_stylesheets.html.erb (0.6ms)
+Rendered layouts/_header.html.erb (0.7ms)
+Rendered layouts/_footer.html.erb (0.4ms)
+Rendered users/show.html.erb within layouts/application (9.1ms)
+Completed 200 OK in 34ms (Views: 11.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at 2016-03-10 18:20:16 +0100
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2016-03-10 18:20:19 +0100
+  Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+Rendered layouts/_stylesheets.html.erb (0.7ms)
+Rendered layouts/_header.html.erb (0.7ms)
+Rendered layouts/_footer.html.erb (0.4ms)
+Rendered users/show.html.erb within layouts/application (22.5ms)
+Completed 200 OK in 34ms (Views: 24.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at 2016-03-10 18:20:19 +0100
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2016-03-10 18:21:03 +0100
+  Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+Rendered layouts/_stylesheets.html.erb (0.6ms)
+Rendered layouts/_header.html.erb (0.8ms)
+Rendered layouts/_footer.html.erb (0.4ms)
+Rendered users/show.html.erb within layouts/application (9.2ms)
+Completed 200 OK in 20ms (Views: 11.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at 2016-03-10 18:21:03 +0100
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2016-03-10 18:21:41 +0100
+  Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+Rendered layouts/_stylesheets.html.erb (0.6ms)
+Rendered layouts/_header.html.erb (0.7ms)
+Rendered layouts/_footer.html.erb (0.4ms)
+Rendered users/show.html.erb within layouts/application (8.8ms)
+Completed 200 OK in 19ms (Views: 10.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at 2016-03-10 18:21:41 +0100
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2016-03-10 18:22:07 +0100
+  Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.5ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+Rendered layouts/_stylesheets.html.erb (0.6ms)
+Rendered layouts/_header.html.erb (0.7ms)
+Rendered layouts/_footer.html.erb (0.4ms)
+Rendered users/show.html.erb within layouts/application (9.8ms)
+Completed 200 OK in 35ms (Views: 11.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at 2016-03-10 18:22:07 +0100
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2016-03-10 18:24:58 +0100
+  Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+Rendered layouts/_stylesheets.html.erb (0.7ms)
+Rendered layouts/_header.html.erb (0.7ms)
+Rendered layouts/_footer.html.erb (12.9ms)
+Rendered users/show.html.erb within layouts/application (21.8ms)
+Completed 200 OK in 33ms (Views: 23.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at 2016-03-10 18:24:58 +0100
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2016-03-10 18:28:00 +0100
+  Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+Rendered layouts/_stylesheets.html.erb (0.6ms)
+Rendered layouts/_header.html.erb (0.7ms)
+Rendered layouts/_footer.html.erb (0.5ms)
+Rendered users/show.html.erb within layouts/application (9.1ms)
+Completed 200 OK in 20ms (Views: 11.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at 2016-03-10 18:28:01 +0100
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2016-03-10 18:28:58 +0100
+  Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+Rendered layouts/_stylesheets.html.erb (0.6ms)
+Rendered layouts/_header.html.erb (0.7ms)
+Rendered layouts/_footer.html.erb (0.4ms)
+Rendered users/show.html.erb within layouts/application (8.9ms)
+Completed 200 OK in 34ms (Views: 10.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at 2016-03-10 18:28:58 +0100
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-10 18:32:31 +0100
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (0.6ms)
+Rendered layouts/_header.html.erb (0.7ms)
+Rendered layouts/_footer.html.erb (0.4ms)
+Rendered pages/home.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 25ms (Views: 25.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at 2016-03-10 18:32:31 +0100
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)

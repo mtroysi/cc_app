@@ -1472,3 +1472,146 @@ ActionController::RoutingError (No route matches "/images/logo.png"):
   
 
 Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+  [1m[36mSQL (1.4ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+Migrating to CreateUsers (20160221204207)
+Migrating to AddEmailUniquenessIndex (20160228113541)
+Migrating to AddDatnaissToUsers (20160308125210)
+Migrating to AddNbfilmsToUsers (20160310121530)
+  [1m[35mSQL (0.0ms)[0m  select sqlite_version(*)
+  [1m[36mSQL (0.3ms)[0m  [1mALTER TABLE "users" ADD "nbfilms" integer[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20160310121530')
+  [1m[36mSQL (0.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations"
+  [1m[36mSQL (0.1ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_list("users")
+  [1m[36mSQL (0.0ms)[0m  [1mPRAGMA index_info('index_users_on_email')[0m
+  [1m[36mSQL (0.3ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+  [1m[35mSQL (0.2ms)[0m  select sqlite_version(*)
+  [1m[36mSQL (0.1ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (78.6ms)[0m  CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "nom" varchar(255), "email" varchar(255), "created_at" datetime, "updated_at" datetime, "datnaiss" date, "nbfilms" integer) 
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("users")[0m
+  [1m[35mSQL (92.1ms)[0m  CREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")
+  [1m[36mSQL (0.4ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (99.3ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("schema_migrations")[0m
+  [1m[35mSQL (85.3ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36mSQL (0.4ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.2ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36mSQL (81.8ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20160310121530')[0m
+  [1m[35mSQL (83.4ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20160221204207')
+  [1m[36mSQL (100.2ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20160228113541')[0m
+  [1m[35mSQL (83.4ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20160308125210')
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" LIMIT 1[0m
+  [1m[35mUser Load (0.6ms)[0m  SELECT "users".* FROM "users" LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users"."id" FROM "users" WHERE (LOWER("users"."email") = LOWER('mhartl@example.com')) AND ("users".id <> 1) LIMIT 1
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" LIMIT 1[0m
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mUser Load (8.5ms)[0m  [1mSELECT "users"."id" FROM "users" WHERE (LOWER("users"."email") = LOWER('mhartl@example.com')) AND ("users".id <> 1) LIMIT 1[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users"."id" FROM "users" WHERE (LOWER("users"."email") = LOWER('mhartl@example.com')) AND ("users".id <> 1) LIMIT 1
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users"."id" FROM "users" WHERE (LOWER("users"."email") = LOWER('mhartl@example.com')) AND ("users".id <> 1) LIMIT 1[0m
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users"."id" FROM "users" WHERE (LOWER("users"."email") = LOWER('mhartl@example.com')) AND ("users".id <> 1) LIMIT 1[0m
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-10 17:39:42 +0100
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (0.6ms)
+Rendered layouts/_header.html.erb (0.7ms)
+Rendered layouts/_footer.html.erb (0.4ms)
+Rendered pages/home.html.erb within layouts/application (26.5ms)
+Completed 200 OK in 29ms (Views: 28.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at 2016-03-10 17:39:42 +0100
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.2ms)
+  [1m[36mUser Load (5.7ms)[0m  [1mSELECT "users".* FROM "users" LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users"."id" FROM "users" WHERE (LOWER("users"."email") = LOWER('mhartl@example.com')) AND ("users".id <> 1) LIMIT 1[0m
+  [1m[35mAREL (0.2ms)[0m  UPDATE "users" SET "nbfilms" = 5, "updated_at" = '2016-03-10 16:40:16.799878' WHERE "users"."id" = 1
+
+
+Started GET "/users/1" for 127.0.0.1 at 2016-03-10 17:40:36 +0100
+  Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mSQL (0.3ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+Rendered layouts/_stylesheets.html.erb (0.6ms)
+Rendered layouts/_header.html.erb (1.0ms)
+Rendered layouts/_footer.html.erb (0.6ms)
+Rendered users/show.html.erb within layouts/application (10.4ms)
+Completed 200 OK in 43ms (Views: 12.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at 2016-03-10 17:40:36 +0100
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2016-03-10 17:41:05 +0100
+  Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+Rendered layouts/_stylesheets.html.erb (0.6ms)
+Rendered layouts/_header.html.erb (0.7ms)
+Rendered layouts/_footer.html.erb (0.4ms)
+Rendered users/show.html.erb within layouts/application (21.0ms)
+Completed 200 OK in 32ms (Views: 22.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at 2016-03-10 17:41:05 +0100
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)

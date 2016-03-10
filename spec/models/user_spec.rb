@@ -5,7 +5,7 @@ require 'spec_helper'
 describe User do
 
   before(:each) do
-    @attr = { :nom => "Example User", :email => "user@example.com", :datnaiss => "1994-05-26" }
+    @attr = { :nom => "Example User", :email => "user@example.com", :datnaiss => "1994-05-26", :nbfilms => 5 }
   end
 
   it "devrait créer une nouvelle instance dotée des attributs valides" do
@@ -25,6 +25,11 @@ describe User do
   it "exige une date de naissance" do
     no_datnaiss_user = User.new(@attr.merge(:datnaiss => ""))
     no_datnaiss_user.should_not be_valid
+  end
+
+  it "exige un nombre de films" do
+    no_nbfilms_user = User.new(@attr.merge(:nbfilms => ""))
+    no_nbfilms_user.should_not be_valid
   end
 
   it "devrait rejeter les noms trop longs" do
@@ -59,5 +64,15 @@ describe User do
   it "devrait rejeter les dates de naissance dans le futur" do
     invalid_datnaiss_user = User.new(@attr.merge(:datnaiss => Date.today+1))
     invalid_datnaiss_user.should_not be_valid
+  end
+
+  it "devrait rejeter un nombre de films négatif" do
+    invalid_nbfilms_user = User.new(@attr.merge(:nbfilms => -1))
+    invalid_nbfilms_user.should_not be_valid
+  end
+
+  it "devrait rejeter un nombre de films non-entier" do
+    invalid_nbfilms_user = User.new(@attr.merge(:nbfilms => 1.5))
+    invalid_nbfilms_user.should_not be_valid
   end
 end

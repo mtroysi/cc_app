@@ -16,4 +16,8 @@ class PagesController < ApplicationController
     @titre = "Aide"
   end
 
+  def statistiques
+    @users = User.all
+  end
+
 end

@@ -1,0 +1,32 @@
+<h1>Statistiques</h1>
+
+<h2>Liste des utilisateurs</h2>
+<p>Trouvez-moi dans app/views/pages/statistiques.html.erb</p>
+
+<table>
+	<tr>
+		<th>Nom</th>
+		<th>Email</th>
+		<th>Date de naissance</th>
+		<th>Nombre moyen de films vus par semaine</th>
+		<th>Aimerait lire plus de livres</th>
+	</tr>
+
+	<% @users.each do |user| %>
+	<tr>
+		<td><%= user.nom %></td>
+		<td><%= user.email %></td>
+		<td><%= user.datnaiss %></td>
+		<td><%= user.nbfilms %></td>
+		<td><%= user.moreBooks %></td>
+	</tr>
+	<% end %>
+</table>
+
+<h2>Pourcentage de lecteurs</h2>
+
+<p>A faire : diagramme de pourcentage ?</p>
+
+<h2>Nombre de films vus par semaine</h2>
+
+<p>A faire : graphique SVG box-plot</p>

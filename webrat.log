@@ -1,0 +1,14 @@
+# Logfile created on 2016-04-05 14:17:48 +0200 by logger.rb/31641
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"nom"=>"", "email"=>"", "datnaiss(3i)"=>"5", "datnaiss(2i)"=>"4", "datnaiss(1i)"=>"2016", "nbfilms"=>"", "moreBooks"=>""}, "commit"=>"Inscription"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"nom"=>"", "email"=>"", "datnaiss(3i)"=>"5", "datnaiss(2i)"=>"4", "datnaiss(1i)"=>"2016", "nbfilms"=>"", "moreBooks"=>""}, "commit"=>"Inscription"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"nom"=>"Example User", "email"=>"user@example.com", "datnaiss(3i)"=>"5", "datnaiss(2i)"=>"4", "datnaiss(1i)"=>"2016", "nbfilms"=>"1", "moreBooks"=>"oui"}, "commit"=>"Inscription"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"nom"=>"", "email"=>"", "datnaiss(3i)"=>"5", "datnaiss(2i)"=>"4", "datnaiss(1i)"=>"2016", "nbfilms"=>"", "moreBooks"=>""}, "commit"=>"Inscription"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"nom"=>"Example User", "email"=>"user@example.com", "datnaiss(3i)"=>"01", "datnaiss(2i)"=>"01", "datnaiss(1i)"=>"2016", "nbfilms"=>"1", "moreBooks"=>"oui"}, "commit"=>"Inscription"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET http://www.example.com/users/1 with {} and HTTP headers {"HTTP_REFERER"=>"/users"}

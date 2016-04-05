@@ -14,9 +14,9 @@
 
 	<% @users.each do |user| %>
 	<tr>
-		<td><%= user.nom %></td>
+		<td><%= link_to "#{user.nom}", user %></td>
 		<td><%= user.email %></td>
-		<td><%= user.datnaiss %></td>
+		<td><%= user.datnaiss.strftime('%d/%m/%Y') %></td>
 		<td><%= user.nbfilms %></td>
 		<td><%= user.moreBooks %></td>
 	</tr>

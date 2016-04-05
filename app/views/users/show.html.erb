@@ -3,5 +3,5 @@
 	Adresse mail : <%= @user.email %> <br />
 	Âge : <%= Date.today.year-@user.datnaiss.year %> ans <br />
 	Nombre moyen de films vus par semaine : <%= @user.nbfilms %> <br />
-	J'aimerais lire plus de livres :  <%= (@user.moreBooks == true)? 'oui' : 'non' %> <br />
+	J'aimerais lire plus de livres :  <%= @user.moreBooks %> <br />
 	</p>

@@ -1,2 +1,31 @@
 <h1>Inscription</h1>
-<p>Trouvez-moi dans app/views/users/new.html.erb</p>
+
+<%= form_for(@user) do |f| %>
+<%= render 'shared/error_messages' %>
+	<div class="field">
+		<%= f.label :nom %><br />
+		<%= f.text_field :nom %>
+	</div>
+	<div class="field">
+		<%= f.label :email %><br />
+		<%= f.text_field :email %>
+	</div>
+	<div class="field">
+		<%= f.label :datnaiss, "Date de naissance" %><br />
+		<%= f.date_select :datnaiss, order: [:day, :month, :year], start_year: 1900, end_year: Date.today.year %>
+	</div>
+	<div class="field">
+		<%= f.label :datnaiss, "Nombre moyen de films vus par semaine (au cinéma, à la télé, sur ordinateur ou tablette...)" %><br />
+		<%= f.text_field :nbfilms %>
+	</div>
+	<div class="field">
+		<b>J'aimerais lire plus de livres : </b>
+		<%= f.radio_button(:moreBooks, "oui") %>
+		<%= f.label(:moreBooks_oui, "Oui") %>
+		<%= f.radio_button(:moreBooks, "non") %>
+		<%= f.label(:moreBooks_non, "Non") %>
+	</div>
+	<div class="actions">
+		<%= f.submit "Inscription" %>
+	</div>
+<% end %>

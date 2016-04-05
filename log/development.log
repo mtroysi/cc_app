@@ -2177,3 +2177,1611 @@ ActionController::RoutingError (No route matches "/images/logo.png"):
   
 
 Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2016-04-05 11:15:53 +0200
+  Processing by UsersController#new as HTML
+Rendered layouts/_stylesheets.html.erb (0.6ms)
+Rendered layouts/_header.html.erb (0.9ms)
+Rendered layouts/_footer.html.erb (0.9ms)
+Rendered users/new.html.erb within layouts/application (26.9ms)
+Completed 200 OK in 54ms (Views: 53.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at 2016-04-05 11:15:53 +0200
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2016-04-05 11:20:02 +0200
+  Processing by UsersController#new as HTML
+Rendered layouts/_stylesheets.html.erb (0.6ms)
+Rendered layouts/_header.html.erb (0.8ms)
+Rendered layouts/_footer.html.erb (0.5ms)
+Rendered users/new.html.erb within layouts/application (60.4ms)
+Completed 200 OK in 84ms (Views: 62.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at 2016-04-05 11:20:02 +0200
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2016-04-05 11:30:42 +0200
+
+AbstractController::ActionNotFound (The action 'create' could not be found for UsersController):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.5ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2016-04-05 11:37:48 +0200
+  Processing by UsersController#new as HTML
+Rendered layouts/_stylesheets.html.erb (0.5ms)
+Rendered layouts/_header.html.erb (0.8ms)
+Rendered layouts/_footer.html.erb (0.8ms)
+Rendered users/new.html.erb within layouts/application (8.6ms)
+Completed 200 OK in 19ms (Views: 10.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at 2016-04-05 11:37:48 +0200
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2016-04-05 11:40:33 +0200
+  Processing by UsersController#new as HTML
+Rendered layouts/_stylesheets.html.erb (0.7ms)
+Rendered layouts/_header.html.erb (0.8ms)
+Rendered layouts/_footer.html.erb (0.4ms)
+Rendered users/new.html.erb within layouts/application (19.6ms)
+Completed 200 OK in 30ms (Views: 21.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at 2016-04-05 11:40:33 +0200
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2016-04-05 11:40:44 +0200
+  Processing by UsersController#new as HTML
+Rendered layouts/_stylesheets.html.erb (0.6ms)
+Rendered layouts/_header.html.erb (0.7ms)
+Rendered layouts/_footer.html.erb (0.4ms)
+Rendered users/new.html.erb within layouts/application (8.7ms)
+Completed 200 OK in 20ms (Views: 10.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at 2016-04-05 11:40:44 +0200
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.4ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2016-04-05 11:41:50 +0200
+  Processing by UsersController#new as HTML
+Rendered layouts/_stylesheets.html.erb (0.6ms)
+Rendered layouts/_header.html.erb (0.8ms)
+Rendered layouts/_footer.html.erb (0.4ms)
+Rendered users/new.html.erb within layouts/application (8.9ms)
+Completed 200 OK in 32ms (Views: 10.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at 2016-04-05 11:41:50 +0200
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2016-04-05 11:41:52 +0200
+  Processing by UsersController#new as HTML
+Rendered layouts/_stylesheets.html.erb (0.5ms)
+Rendered layouts/_header.html.erb (0.7ms)
+Rendered layouts/_footer.html.erb (0.4ms)
+Rendered users/new.html.erb within layouts/application (7.8ms)
+Completed 200 OK in 18ms (Views: 9.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at 2016-04-05 11:41:52 +0200
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2016-04-05 11:45:28 +0200
+  Processing by UsersController#new as HTML
+ERROR: compiling _app_views_users_new_html_erb___3196516410167384384_70021795604920__2889136506306380096 RAISED /home/etudiant/public_html/rails_projects/cc_app/app/views/users/new.html.erb:13: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+... par semaine (au cinéma, à la télé, sur ordinateur ou ta...
+...                               ^
+/home/etudiant/public_html/rails_projects/cc_app/app/views/users/new.html.erb:13: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+...a, à la télé, sur ordinateur ou tablette...) );@output_bu...
+...                               ^
+/home/etudiant/public_html/rails_projects/cc_app/app/views/users/new.html.erb:13: syntax error, unexpected ')'
+... sur ordinateur ou tablette...) );@output_buffer.safe_concat...
+...                               ^
+/home/etudiant/public_html/rails_projects/cc_app/app/views/users/new.html.erb:26: syntax error, unexpected keyword_end, expecting ')'
+'); end 
+       ^
+/home/etudiant/public_html/rails_projects/cc_app/app/views/users/new.html.erb:28: syntax error, unexpected keyword_ensure, expecting ')'
+/home/etudiant/public_html/rails_projects/cc_app/app/views/users/new.html.erb:30: syntax error, unexpected keyword_end, expecting ')'
+Function body:           def _app_views_users_new_html_erb___3196516410167384384_70021795604920__2889136506306380096(local_assigns)
+            _old_virtual_path, @_virtual_path = @_virtual_path, "users/new";_old_output_buffer = @output_buffer;;@output_buffer = ActionView::OutputBuffer.new;@output_buffer.safe_concat('<h1>Inscription</h1>
+
+');@output_buffer.append=  form_for(@user) do |f| @output_buffer.safe_concat('
+');@output_buffer.safe_concat('	<div class="field">
+		');@output_buffer.append= ( f.label :nom );@output_buffer.safe_concat('<br />
+		');@output_buffer.append= ( f.text_field :nom );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('	</div>
+	<div class="field">
+		');@output_buffer.append= ( f.label :email );@output_buffer.safe_concat('<br />
+		');@output_buffer.append= ( f.text_field :email );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('	</div>
+	<div class="field">
+		');@output_buffer.append= ( f.label Nombre moyen de films vus par semaine (au cinéma, à la télé, sur ordinateur ou tablette...) );@output_buffer.safe_concat('<br />
+		');@output_buffer.append= ( f.text_field :nbfilms );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('	</div>
+	<div class="field">
+		J\'aimerais lire plus de livres : 
+		');@output_buffer.append= ( f.radio_button(:moreBooks, "oui") );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('		');@output_buffer.append= ( f.label(:moreBooks_oui, "Oui") );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('		');@output_buffer.append= ( f.radio_button(:moreBooks, "non") );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('		');@output_buffer.append= ( f.label(:moreBooks_non, "Non") );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('	</div>
+	<div class="actions">
+		');@output_buffer.append= ( f.submit "Inscription" );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('	</div>
+'); end 
+@output_buffer.to_s
+          ensure
+            @_virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+Backtrace: /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_view/template.rb:255:in `module_eval'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_view/template.rb:255:in `compile'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_view/template.rb:134:in `block in render'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/activesupport-3.0.5/lib/active_support/notifications.rb:54:in `instrument'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_view/template.rb:127:in `render'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_view/render/rendering.rb:59:in `block in _render_template'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/activesupport-3.0.5/lib/active_support/notifications.rb:52:in `block in instrument'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/activesupport-3.0.5/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/activesupport-3.0.5/lib/active_support/notifications.rb:52:in `instrument'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_view/render/rendering.rb:56:in `_render_template'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_view/render/rendering.rb:26:in `render'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/abstract_controller/rendering.rb:115:in `_render_template'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/abstract_controller/rendering.rb:109:in `render_to_body'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_controller/metal/renderers.rb:47:in `render_to_body'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_controller/metal/compatibility.rb:55:in `render_to_body'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/abstract_controller/rendering.rb:102:in `render_to_string'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/abstract_controller/rendering.rb:93:in `render'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_controller/metal/rendering.rb:17:in `render'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/activesupport-3.0.5/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+/home/etudiant/.rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/benchmark.rb:295:in `realtime'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/activesupport-3.0.5/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_controller/metal/instrumentation.rb:78:in `cleanup_view_runtime'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/activerecord-3.0.5/lib/active_record/railties/controller_runtime.rb:15:in `cleanup_view_runtime'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/abstract_controller/base.rb:150:in `process_action'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_controller/metal/rendering.rb:11:in `process_action'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/activesupport-3.0.5/lib/active_support/callbacks.rb:435:in `_run__3791939034027235118__process_action__691421659967370356__callbacks'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/activesupport-3.0.5/lib/active_support/callbacks.rb:409:in `_run_process_action_callbacks'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/activesupport-3.0.5/lib/active_support/callbacks.rb:93:in `run_callbacks'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/activesupport-3.0.5/lib/active_support/notifications.rb:52:in `block in instrument'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/activesupport-3.0.5/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/activesupport-3.0.5/lib/active_support/notifications.rb:52:in `instrument'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_controller/metal/rescue.rb:17:in `process_action'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/abstract_controller/base.rb:119:in `process'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/abstract_controller/rendering.rb:41:in `process'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_controller/metal.rb:138:in `dispatch'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_controller/metal.rb:178:in `block in action'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/routing/route_set.rb:62:in `call'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/routing/route_set.rb:62:in `dispatch'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/routing/route_set.rb:27:in `call'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/rack-mount-0.6.14/lib/rack/mount/route_set.rb:148:in `block in call'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/rack-mount-0.6.14/lib/rack/mount/code_generation.rb:93:in `block in recognize'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/rack-mount-0.6.14/lib/rack/mount/code_generation.rb:96:in `optimized_each'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/rack-mount-0.6.14/lib/rack/mount/code_generation.rb:92:in `recognize'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/rack-mount-0.6.14/lib/rack/mount/route_set.rb:139:in `call'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/routing/route_set.rb:492:in `call'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/head.rb:14:in `call'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/rack-1.2.8/lib/rack/methodoverride.rb:24:in `call'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/flash.rb:182:in `call'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/session/abstract_store.rb:149:in `call'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/cookies.rb:302:in `call'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/activerecord-3.0.5/lib/active_record/query_cache.rb:32:in `block in call'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/query_cache.rb:28:in `cache'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/activerecord-3.0.5/lib/active_record/query_cache.rb:12:in `cache'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/activerecord-3.0.5/lib/active_record/query_cache.rb:31:in `call'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:354:in `call'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/callbacks.rb:46:in `block in call'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/activesupport-3.0.5/lib/active_support/callbacks.rb:415:in `_run_call_callbacks'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/callbacks.rb:44:in `call'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/rack-1.2.8/lib/rack/sendfile.rb:106:in `call'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/remote_ip.rb:48:in `call'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/show_exceptions.rb:47:in `call'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/railties-3.0.5/lib/rails/rack/logger.rb:13:in `call'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/rack-1.2.8/lib/rack/runtime.rb:17:in `call'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/activesupport-3.0.5/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/rack-1.2.8/lib/rack/lock.rb:13:in `block in call'
+<internal:prelude>:10:in `synchronize'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/rack-1.2.8/lib/rack/lock.rb:13:in `call'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/static.rb:30:in `call'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/railties-3.0.5/lib/rails/application.rb:168:in `call'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/railties-3.0.5/lib/rails/application.rb:77:in `method_missing'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/railties-3.0.5/lib/rails/rack/log_tailer.rb:14:in `call'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/rack-1.2.8/lib/rack/content_length.rb:13:in `call'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/rack-1.2.8/lib/rack/handler/webrick.rb:52:in `service'
+/home/etudiant/.rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+/home/etudiant/.rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+/home/etudiant/.rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+Rendered users/new.html.erb within layouts/application (34.6ms)
+Completed   in 44ms
+
+ActionView::Template::Error (/home/etudiant/public_html/rails_projects/cc_app/app/views/users/new.html.erb:13: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+... par semaine (au cinéma, à la télé, sur ordinateur ou ta...
+...                               ^
+/home/etudiant/public_html/rails_projects/cc_app/app/views/users/new.html.erb:13: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+...a, à la télé, sur ordinateur ou tablette...) );@output_bu...
+...                               ^
+/home/etudiant/public_html/rails_projects/cc_app/app/views/users/new.html.erb:13: syntax error, unexpected ')'
+... sur ordinateur ou tablette...) );@output_buffer.safe_concat...
+...                               ^
+/home/etudiant/public_html/rails_projects/cc_app/app/views/users/new.html.erb:26: syntax error, unexpected keyword_end, expecting ')'
+'); end 
+       ^
+/home/etudiant/public_html/rails_projects/cc_app/app/views/users/new.html.erb:28: syntax error, unexpected keyword_ensure, expecting ')'
+/home/etudiant/public_html/rails_projects/cc_app/app/views/users/new.html.erb:30: syntax error, unexpected keyword_end, expecting ')'):
+    10: 		<%= f.text_field :email %>
+    11: 	</div>
+    12: 	<div class="field">
+    13: 		<%= f.label Nombre moyen de films vus par semaine (au cinéma, à la télé, sur ordinateur ou tablette...) %><br />
+    14: 		<%= f.text_field :nbfilms %>
+    15: 	</div>
+    16: 	<div class="field">
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.7ms)
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.6ms)
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (5.0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2016-04-05 11:46:29 +0200
+  Processing by UsersController#new as HTML
+ERROR: compiling _app_views_users_new_html_erb___3196516410167384384_70021792473620__2889136506306380096 RAISED /home/etudiant/public_html/rails_projects/cc_app/app/views/users/new.html.erb:13: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+...s par semaine (au cinema, à la tele, sur ordinateur ou tabl...
+...                               ^
+/home/etudiant/public_html/rails_projects/cc_app/app/views/users/new.html.erb:13: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+...ema, à la tele, sur ordinateur ou tablette...) );@output_bu...
+...                               ^
+/home/etudiant/public_html/rails_projects/cc_app/app/views/users/new.html.erb:13: syntax error, unexpected ')'
+... sur ordinateur ou tablette...) );@output_buffer.safe_concat...
+...                               ^
+/home/etudiant/public_html/rails_projects/cc_app/app/views/users/new.html.erb:26: syntax error, unexpected keyword_end, expecting ')'
+'); end 
+       ^
+/home/etudiant/public_html/rails_projects/cc_app/app/views/users/new.html.erb:28: syntax error, unexpected keyword_ensure, expecting ')'
+/home/etudiant/public_html/rails_projects/cc_app/app/views/users/new.html.erb:30: syntax error, unexpected keyword_end, expecting ')'
+Function body:           def _app_views_users_new_html_erb___3196516410167384384_70021792473620__2889136506306380096(local_assigns)
+            _old_virtual_path, @_virtual_path = @_virtual_path, "users/new";_old_output_buffer = @output_buffer;;@output_buffer = ActionView::OutputBuffer.new;@output_buffer.safe_concat('<h1>Inscription</h1>
+
+');@output_buffer.append=  form_for(@user) do |f| @output_buffer.safe_concat('
+');@output_buffer.safe_concat('	<div class="field">
+		');@output_buffer.append= ( f.label :nom );@output_buffer.safe_concat('<br />
+		');@output_buffer.append= ( f.text_field :nom );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('	</div>
+	<div class="field">
+		');@output_buffer.append= ( f.label :email );@output_buffer.safe_concat('<br />
+		');@output_buffer.append= ( f.text_field :email );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('	</div>
+	<div class="field">
+		');@output_buffer.append= ( f.label Nombre moyen de films vus par semaine (au cinema, à la tele, sur ordinateur ou tablette...) );@output_buffer.safe_concat('<br />
+		');@output_buffer.append= ( f.text_field :nbfilms );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('	</div>
+	<div class="field">
+		J\'aimerais lire plus de livres : 
+		');@output_buffer.append= ( f.radio_button(:moreBooks, "oui") );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('		');@output_buffer.append= ( f.label(:moreBooks_oui, "Oui") );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('		');@output_buffer.append= ( f.radio_button(:moreBooks, "non") );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('		');@output_buffer.append= ( f.label(:moreBooks_non, "Non") );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('	</div>
+	<div class="actions">
+		');@output_buffer.append= ( f.submit "Inscription" );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('	</div>
+'); end 
+@output_buffer.to_s
+          ensure
+            @_virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+Backtrace: /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_view/template.rb:255:in `module_eval'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_view/template.rb:255:in `compile'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_view/template.rb:134:in `block in render'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/activesupport-3.0.5/lib/active_support/notifications.rb:54:in `instrument'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_view/template.rb:127:in `render'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_view/render/rendering.rb:59:in `block in _render_template'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/activesupport-3.0.5/lib/active_support/notifications.rb:52:in `block in instrument'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/activesupport-3.0.5/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/activesupport-3.0.5/lib/active_support/notifications.rb:52:in `instrument'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_view/render/rendering.rb:56:in `_render_template'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_view/render/rendering.rb:26:in `render'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/abstract_controller/rendering.rb:115:in `_render_template'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/abstract_controller/rendering.rb:109:in `render_to_body'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_controller/metal/renderers.rb:47:in `render_to_body'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_controller/metal/compatibility.rb:55:in `render_to_body'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/abstract_controller/rendering.rb:102:in `render_to_string'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/abstract_controller/rendering.rb:93:in `render'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_controller/metal/rendering.rb:17:in `render'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/activesupport-3.0.5/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+/home/etudiant/.rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/benchmark.rb:295:in `realtime'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/activesupport-3.0.5/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_controller/metal/instrumentation.rb:78:in `cleanup_view_runtime'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/activerecord-3.0.5/lib/active_record/railties/controller_runtime.rb:15:in `cleanup_view_runtime'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/abstract_controller/base.rb:150:in `process_action'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_controller/metal/rendering.rb:11:in `process_action'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/activesupport-3.0.5/lib/active_support/callbacks.rb:435:in `_run__3791939034027235118__process_action__691421659967370356__callbacks'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/activesupport-3.0.5/lib/active_support/callbacks.rb:409:in `_run_process_action_callbacks'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/activesupport-3.0.5/lib/active_support/callbacks.rb:93:in `run_callbacks'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/activesupport-3.0.5/lib/active_support/notifications.rb:52:in `block in instrument'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/activesupport-3.0.5/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/activesupport-3.0.5/lib/active_support/notifications.rb:52:in `instrument'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_controller/metal/rescue.rb:17:in `process_action'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/abstract_controller/base.rb:119:in `process'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/abstract_controller/rendering.rb:41:in `process'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_controller/metal.rb:138:in `dispatch'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_controller/metal.rb:178:in `block in action'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/routing/route_set.rb:62:in `call'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/routing/route_set.rb:62:in `dispatch'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/routing/route_set.rb:27:in `call'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/rack-mount-0.6.14/lib/rack/mount/route_set.rb:148:in `block in call'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/rack-mount-0.6.14/lib/rack/mount/code_generation.rb:93:in `block in recognize'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/rack-mount-0.6.14/lib/rack/mount/code_generation.rb:96:in `optimized_each'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/rack-mount-0.6.14/lib/rack/mount/code_generation.rb:92:in `recognize'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/rack-mount-0.6.14/lib/rack/mount/route_set.rb:139:in `call'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/routing/route_set.rb:492:in `call'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/head.rb:14:in `call'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/rack-1.2.8/lib/rack/methodoverride.rb:24:in `call'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/flash.rb:182:in `call'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/session/abstract_store.rb:149:in `call'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/cookies.rb:302:in `call'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/activerecord-3.0.5/lib/active_record/query_cache.rb:32:in `block in call'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/query_cache.rb:28:in `cache'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/activerecord-3.0.5/lib/active_record/query_cache.rb:12:in `cache'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/activerecord-3.0.5/lib/active_record/query_cache.rb:31:in `call'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:354:in `call'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/callbacks.rb:46:in `block in call'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/activesupport-3.0.5/lib/active_support/callbacks.rb:415:in `_run_call_callbacks'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/callbacks.rb:44:in `call'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/rack-1.2.8/lib/rack/sendfile.rb:106:in `call'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/remote_ip.rb:48:in `call'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/show_exceptions.rb:47:in `call'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/railties-3.0.5/lib/rails/rack/logger.rb:13:in `call'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/rack-1.2.8/lib/rack/runtime.rb:17:in `call'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/activesupport-3.0.5/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/rack-1.2.8/lib/rack/lock.rb:13:in `block in call'
+<internal:prelude>:10:in `synchronize'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/rack-1.2.8/lib/rack/lock.rb:13:in `call'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/static.rb:30:in `call'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/railties-3.0.5/lib/rails/application.rb:168:in `call'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/railties-3.0.5/lib/rails/application.rb:77:in `method_missing'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/railties-3.0.5/lib/rails/rack/log_tailer.rb:14:in `call'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/rack-1.2.8/lib/rack/content_length.rb:13:in `call'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/rack-1.2.8/lib/rack/handler/webrick.rb:52:in `service'
+/home/etudiant/.rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+/home/etudiant/.rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+/home/etudiant/.rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+Rendered users/new.html.erb within layouts/application (0.7ms)
+Completed   in 11ms
+
+ActionView::Template::Error (/home/etudiant/public_html/rails_projects/cc_app/app/views/users/new.html.erb:13: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+...s par semaine (au cinema, à la tele, sur ordinateur ou tabl...
+...                               ^
+/home/etudiant/public_html/rails_projects/cc_app/app/views/users/new.html.erb:13: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+...ema, à la tele, sur ordinateur ou tablette...) );@output_bu...
+...                               ^
+/home/etudiant/public_html/rails_projects/cc_app/app/views/users/new.html.erb:13: syntax error, unexpected ')'
+... sur ordinateur ou tablette...) );@output_buffer.safe_concat...
+...                               ^
+/home/etudiant/public_html/rails_projects/cc_app/app/views/users/new.html.erb:26: syntax error, unexpected keyword_end, expecting ')'
+'); end 
+       ^
+/home/etudiant/public_html/rails_projects/cc_app/app/views/users/new.html.erb:28: syntax error, unexpected keyword_ensure, expecting ')'
+/home/etudiant/public_html/rails_projects/cc_app/app/views/users/new.html.erb:30: syntax error, unexpected keyword_end, expecting ')'):
+    10: 		<%= f.text_field :email %>
+    11: 	</div>
+    12: 	<div class="field">
+    13: 		<%= f.label Nombre moyen de films vus par semaine (au cinema, à la tele, sur ordinateur ou tablette...) %><br />
+    14: 		<%= f.text_field :nbfilms %>
+    15: 	</div>
+    16: 	<div class="field">
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.6ms)
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (4.2ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2016-04-05 11:46:41 +0200
+  Processing by UsersController#new as HTML
+ERROR: compiling _app_views_users_new_html_erb___3196516410167384384_70021793672220__2889136506306380096 RAISED /home/etudiant/public_html/rails_projects/cc_app/app/views/users/new.html.erb:13: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+...us par semaine (au cinema, a la tele, sur ordinateur ou tabl...
+...                               ^
+/home/etudiant/public_html/rails_projects/cc_app/app/views/users/new.html.erb:13: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+...nema, a la tele, sur ordinateur ou tablette...) );@output_bu...
+...                               ^
+/home/etudiant/public_html/rails_projects/cc_app/app/views/users/new.html.erb:13: syntax error, unexpected ')'
+... sur ordinateur ou tablette...) );@output_buffer.safe_concat...
+...                               ^
+/home/etudiant/public_html/rails_projects/cc_app/app/views/users/new.html.erb:26: syntax error, unexpected keyword_end, expecting ')'
+'); end 
+       ^
+/home/etudiant/public_html/rails_projects/cc_app/app/views/users/new.html.erb:28: syntax error, unexpected keyword_ensure, expecting ')'
+/home/etudiant/public_html/rails_projects/cc_app/app/views/users/new.html.erb:30: syntax error, unexpected keyword_end, expecting ')'
+Function body:           def _app_views_users_new_html_erb___3196516410167384384_70021793672220__2889136506306380096(local_assigns)
+            _old_virtual_path, @_virtual_path = @_virtual_path, "users/new";_old_output_buffer = @output_buffer;;@output_buffer = ActionView::OutputBuffer.new;@output_buffer.safe_concat('<h1>Inscription</h1>
+
+');@output_buffer.append=  form_for(@user) do |f| @output_buffer.safe_concat('
+');@output_buffer.safe_concat('	<div class="field">
+		');@output_buffer.append= ( f.label :nom );@output_buffer.safe_concat('<br />
+		');@output_buffer.append= ( f.text_field :nom );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('	</div>
+	<div class="field">
+		');@output_buffer.append= ( f.label :email );@output_buffer.safe_concat('<br />
+		');@output_buffer.append= ( f.text_field :email );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('	</div>
+	<div class="field">
+		');@output_buffer.append= ( f.label Nombre moyen de films vus par semaine (au cinema, a la tele, sur ordinateur ou tablette...) );@output_buffer.safe_concat('<br />
+		');@output_buffer.append= ( f.text_field :nbfilms );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('	</div>
+	<div class="field">
+		J\'aimerais lire plus de livres : 
+		');@output_buffer.append= ( f.radio_button(:moreBooks, "oui") );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('		');@output_buffer.append= ( f.label(:moreBooks_oui, "Oui") );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('		');@output_buffer.append= ( f.radio_button(:moreBooks, "non") );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('		');@output_buffer.append= ( f.label(:moreBooks_non, "Non") );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('	</div>
+	<div class="actions">
+		');@output_buffer.append= ( f.submit "Inscription" );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('	</div>
+'); end 
+@output_buffer.to_s
+          ensure
+            @_virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+Backtrace: /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_view/template.rb:255:in `module_eval'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_view/template.rb:255:in `compile'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_view/template.rb:134:in `block in render'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/activesupport-3.0.5/lib/active_support/notifications.rb:54:in `instrument'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_view/template.rb:127:in `render'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_view/render/rendering.rb:59:in `block in _render_template'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/activesupport-3.0.5/lib/active_support/notifications.rb:52:in `block in instrument'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/activesupport-3.0.5/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/activesupport-3.0.5/lib/active_support/notifications.rb:52:in `instrument'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_view/render/rendering.rb:56:in `_render_template'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_view/render/rendering.rb:26:in `render'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/abstract_controller/rendering.rb:115:in `_render_template'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/abstract_controller/rendering.rb:109:in `render_to_body'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_controller/metal/renderers.rb:47:in `render_to_body'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_controller/metal/compatibility.rb:55:in `render_to_body'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/abstract_controller/rendering.rb:102:in `render_to_string'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/abstract_controller/rendering.rb:93:in `render'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_controller/metal/rendering.rb:17:in `render'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/activesupport-3.0.5/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+/home/etudiant/.rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/benchmark.rb:295:in `realtime'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/activesupport-3.0.5/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_controller/metal/instrumentation.rb:78:in `cleanup_view_runtime'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/activerecord-3.0.5/lib/active_record/railties/controller_runtime.rb:15:in `cleanup_view_runtime'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/abstract_controller/base.rb:150:in `process_action'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_controller/metal/rendering.rb:11:in `process_action'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/activesupport-3.0.5/lib/active_support/callbacks.rb:435:in `_run__3791939034027235118__process_action__691421659967370356__callbacks'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/activesupport-3.0.5/lib/active_support/callbacks.rb:409:in `_run_process_action_callbacks'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/activesupport-3.0.5/lib/active_support/callbacks.rb:93:in `run_callbacks'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/activesupport-3.0.5/lib/active_support/notifications.rb:52:in `block in instrument'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/activesupport-3.0.5/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/activesupport-3.0.5/lib/active_support/notifications.rb:52:in `instrument'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_controller/metal/rescue.rb:17:in `process_action'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/abstract_controller/base.rb:119:in `process'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/abstract_controller/rendering.rb:41:in `process'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_controller/metal.rb:138:in `dispatch'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_controller/metal.rb:178:in `block in action'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/routing/route_set.rb:62:in `call'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/routing/route_set.rb:62:in `dispatch'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/routing/route_set.rb:27:in `call'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/rack-mount-0.6.14/lib/rack/mount/route_set.rb:148:in `block in call'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/rack-mount-0.6.14/lib/rack/mount/code_generation.rb:93:in `block in recognize'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/rack-mount-0.6.14/lib/rack/mount/code_generation.rb:96:in `optimized_each'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/rack-mount-0.6.14/lib/rack/mount/code_generation.rb:92:in `recognize'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/rack-mount-0.6.14/lib/rack/mount/route_set.rb:139:in `call'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/routing/route_set.rb:492:in `call'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/head.rb:14:in `call'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/rack-1.2.8/lib/rack/methodoverride.rb:24:in `call'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/flash.rb:182:in `call'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/session/abstract_store.rb:149:in `call'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/cookies.rb:302:in `call'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/activerecord-3.0.5/lib/active_record/query_cache.rb:32:in `block in call'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/query_cache.rb:28:in `cache'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/activerecord-3.0.5/lib/active_record/query_cache.rb:12:in `cache'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/activerecord-3.0.5/lib/active_record/query_cache.rb:31:in `call'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:354:in `call'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/callbacks.rb:46:in `block in call'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/activesupport-3.0.5/lib/active_support/callbacks.rb:415:in `_run_call_callbacks'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/callbacks.rb:44:in `call'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/rack-1.2.8/lib/rack/sendfile.rb:106:in `call'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/remote_ip.rb:48:in `call'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/show_exceptions.rb:47:in `call'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/railties-3.0.5/lib/rails/rack/logger.rb:13:in `call'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/rack-1.2.8/lib/rack/runtime.rb:17:in `call'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/activesupport-3.0.5/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/rack-1.2.8/lib/rack/lock.rb:13:in `block in call'
+<internal:prelude>:10:in `synchronize'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/rack-1.2.8/lib/rack/lock.rb:13:in `call'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/static.rb:30:in `call'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/railties-3.0.5/lib/rails/application.rb:168:in `call'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/railties-3.0.5/lib/rails/application.rb:77:in `method_missing'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/railties-3.0.5/lib/rails/rack/log_tailer.rb:14:in `call'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/rack-1.2.8/lib/rack/content_length.rb:13:in `call'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/rack-1.2.8/lib/rack/handler/webrick.rb:52:in `service'
+/home/etudiant/.rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+/home/etudiant/.rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+/home/etudiant/.rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+Rendered users/new.html.erb within layouts/application (0.6ms)
+Completed   in 12ms
+
+ActionView::Template::Error (/home/etudiant/public_html/rails_projects/cc_app/app/views/users/new.html.erb:13: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+...us par semaine (au cinema, a la tele, sur ordinateur ou tabl...
+...                               ^
+/home/etudiant/public_html/rails_projects/cc_app/app/views/users/new.html.erb:13: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+...nema, a la tele, sur ordinateur ou tablette...) );@output_bu...
+...                               ^
+/home/etudiant/public_html/rails_projects/cc_app/app/views/users/new.html.erb:13: syntax error, unexpected ')'
+... sur ordinateur ou tablette...) );@output_buffer.safe_concat...
+...                               ^
+/home/etudiant/public_html/rails_projects/cc_app/app/views/users/new.html.erb:26: syntax error, unexpected keyword_end, expecting ')'
+'); end 
+       ^
+/home/etudiant/public_html/rails_projects/cc_app/app/views/users/new.html.erb:28: syntax error, unexpected keyword_ensure, expecting ')'
+/home/etudiant/public_html/rails_projects/cc_app/app/views/users/new.html.erb:30: syntax error, unexpected keyword_end, expecting ')'):
+    10: 		<%= f.text_field :email %>
+    11: 	</div>
+    12: 	<div class="field">
+    13: 		<%= f.label Nombre moyen de films vus par semaine (au cinema, a la tele, sur ordinateur ou tablette...) %><br />
+    14: 		<%= f.text_field :nbfilms %>
+    15: 	</div>
+    16: 	<div class="field">
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.6ms)
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.5ms)
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (16.0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2016-04-05 11:46:53 +0200
+  Processing by UsersController#new as HTML
+ERROR: compiling _app_views_users_new_html_erb___3196516410167384384_70021796833220__2889136506306380096 RAISED /home/etudiant/public_html/rails_projects/cc_app/app/views/users/new.html.erb:13: syntax error, unexpected ':', expecting ')'
+...oyen de films vus par semaine : );@output_buffer.safe_concat...
+...                               ^
+/home/etudiant/public_html/rails_projects/cc_app/app/views/users/new.html.erb:26: syntax error, unexpected keyword_end, expecting ')'
+'); end 
+       ^
+/home/etudiant/public_html/rails_projects/cc_app/app/views/users/new.html.erb:28: syntax error, unexpected keyword_ensure, expecting ')'
+/home/etudiant/public_html/rails_projects/cc_app/app/views/users/new.html.erb:30: syntax error, unexpected keyword_end, expecting ')'
+Function body:           def _app_views_users_new_html_erb___3196516410167384384_70021796833220__2889136506306380096(local_assigns)
+            _old_virtual_path, @_virtual_path = @_virtual_path, "users/new";_old_output_buffer = @output_buffer;;@output_buffer = ActionView::OutputBuffer.new;@output_buffer.safe_concat('<h1>Inscription</h1>
+
+');@output_buffer.append=  form_for(@user) do |f| @output_buffer.safe_concat('
+');@output_buffer.safe_concat('	<div class="field">
+		');@output_buffer.append= ( f.label :nom );@output_buffer.safe_concat('<br />
+		');@output_buffer.append= ( f.text_field :nom );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('	</div>
+	<div class="field">
+		');@output_buffer.append= ( f.label :email );@output_buffer.safe_concat('<br />
+		');@output_buffer.append= ( f.text_field :email );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('	</div>
+	<div class="field">
+		');@output_buffer.append= ( f.label Nombre moyen de films vus par semaine : );@output_buffer.safe_concat('<br />
+		');@output_buffer.append= ( f.text_field :nbfilms );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('	</div>
+	<div class="field">
+		J\'aimerais lire plus de livres : 
+		');@output_buffer.append= ( f.radio_button(:moreBooks, "oui") );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('		');@output_buffer.append= ( f.label(:moreBooks_oui, "Oui") );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('		');@output_buffer.append= ( f.radio_button(:moreBooks, "non") );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('		');@output_buffer.append= ( f.label(:moreBooks_non, "Non") );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('	</div>
+	<div class="actions">
+		');@output_buffer.append= ( f.submit "Inscription" );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('	</div>
+'); end 
+@output_buffer.to_s
+          ensure
+            @_virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+Backtrace: /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_view/template.rb:255:in `module_eval'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_view/template.rb:255:in `compile'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_view/template.rb:134:in `block in render'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/activesupport-3.0.5/lib/active_support/notifications.rb:54:in `instrument'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_view/template.rb:127:in `render'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_view/render/rendering.rb:59:in `block in _render_template'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/activesupport-3.0.5/lib/active_support/notifications.rb:52:in `block in instrument'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/activesupport-3.0.5/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/activesupport-3.0.5/lib/active_support/notifications.rb:52:in `instrument'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_view/render/rendering.rb:56:in `_render_template'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_view/render/rendering.rb:26:in `render'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/abstract_controller/rendering.rb:115:in `_render_template'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/abstract_controller/rendering.rb:109:in `render_to_body'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_controller/metal/renderers.rb:47:in `render_to_body'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_controller/metal/compatibility.rb:55:in `render_to_body'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/abstract_controller/rendering.rb:102:in `render_to_string'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/abstract_controller/rendering.rb:93:in `render'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_controller/metal/rendering.rb:17:in `render'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/activesupport-3.0.5/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+/home/etudiant/.rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/benchmark.rb:295:in `realtime'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/activesupport-3.0.5/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_controller/metal/instrumentation.rb:78:in `cleanup_view_runtime'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/activerecord-3.0.5/lib/active_record/railties/controller_runtime.rb:15:in `cleanup_view_runtime'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/abstract_controller/base.rb:150:in `process_action'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_controller/metal/rendering.rb:11:in `process_action'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/activesupport-3.0.5/lib/active_support/callbacks.rb:435:in `_run__3791939034027235118__process_action__691421659967370356__callbacks'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/activesupport-3.0.5/lib/active_support/callbacks.rb:409:in `_run_process_action_callbacks'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/activesupport-3.0.5/lib/active_support/callbacks.rb:93:in `run_callbacks'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/activesupport-3.0.5/lib/active_support/notifications.rb:52:in `block in instrument'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/activesupport-3.0.5/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/activesupport-3.0.5/lib/active_support/notifications.rb:52:in `instrument'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_controller/metal/rescue.rb:17:in `process_action'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/abstract_controller/base.rb:119:in `process'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/abstract_controller/rendering.rb:41:in `process'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_controller/metal.rb:138:in `dispatch'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_controller/metal.rb:178:in `block in action'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/routing/route_set.rb:62:in `call'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/routing/route_set.rb:62:in `dispatch'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/routing/route_set.rb:27:in `call'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/rack-mount-0.6.14/lib/rack/mount/route_set.rb:148:in `block in call'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/rack-mount-0.6.14/lib/rack/mount/code_generation.rb:93:in `block in recognize'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/rack-mount-0.6.14/lib/rack/mount/code_generation.rb:96:in `optimized_each'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/rack-mount-0.6.14/lib/rack/mount/code_generation.rb:92:in `recognize'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/rack-mount-0.6.14/lib/rack/mount/route_set.rb:139:in `call'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/routing/route_set.rb:492:in `call'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/head.rb:14:in `call'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/rack-1.2.8/lib/rack/methodoverride.rb:24:in `call'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/flash.rb:182:in `call'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/session/abstract_store.rb:149:in `call'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/cookies.rb:302:in `call'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/activerecord-3.0.5/lib/active_record/query_cache.rb:32:in `block in call'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/query_cache.rb:28:in `cache'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/activerecord-3.0.5/lib/active_record/query_cache.rb:12:in `cache'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/activerecord-3.0.5/lib/active_record/query_cache.rb:31:in `call'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:354:in `call'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/callbacks.rb:46:in `block in call'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/activesupport-3.0.5/lib/active_support/callbacks.rb:415:in `_run_call_callbacks'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/callbacks.rb:44:in `call'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/rack-1.2.8/lib/rack/sendfile.rb:106:in `call'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/remote_ip.rb:48:in `call'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/show_exceptions.rb:47:in `call'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/railties-3.0.5/lib/rails/rack/logger.rb:13:in `call'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/rack-1.2.8/lib/rack/runtime.rb:17:in `call'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/activesupport-3.0.5/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/rack-1.2.8/lib/rack/lock.rb:13:in `block in call'
+<internal:prelude>:10:in `synchronize'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/rack-1.2.8/lib/rack/lock.rb:13:in `call'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/static.rb:30:in `call'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/railties-3.0.5/lib/rails/application.rb:168:in `call'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/railties-3.0.5/lib/rails/application.rb:77:in `method_missing'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/railties-3.0.5/lib/rails/rack/log_tailer.rb:14:in `call'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/rack-1.2.8/lib/rack/content_length.rb:13:in `call'
+/home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/rack-1.2.8/lib/rack/handler/webrick.rb:52:in `service'
+/home/etudiant/.rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+/home/etudiant/.rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+/home/etudiant/.rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+Rendered users/new.html.erb within layouts/application (0.6ms)
+Completed   in 12ms
+
+ActionView::Template::Error (/home/etudiant/public_html/rails_projects/cc_app/app/views/users/new.html.erb:13: syntax error, unexpected ':', expecting ')'
+...oyen de films vus par semaine : );@output_buffer.safe_concat...
+...                               ^
+/home/etudiant/public_html/rails_projects/cc_app/app/views/users/new.html.erb:26: syntax error, unexpected keyword_end, expecting ')'
+'); end 
+       ^
+/home/etudiant/public_html/rails_projects/cc_app/app/views/users/new.html.erb:28: syntax error, unexpected keyword_ensure, expecting ')'
+/home/etudiant/public_html/rails_projects/cc_app/app/views/users/new.html.erb:30: syntax error, unexpected keyword_end, expecting ')'):
+    10: 		<%= f.text_field :email %>
+    11: 	</div>
+    12: 	<div class="field">
+    13: 		<%= f.label Nombre moyen de films vus par semaine : %><br />
+    14: 		<%= f.text_field :nbfilms %>
+    15: 	</div>
+    16: 	<div class="field">
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.7ms)
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.6ms)
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (4.6ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2016-04-05 11:47:12 +0200
+  Processing by UsersController#new as HTML
+Rendered layouts/_stylesheets.html.erb (0.5ms)
+Rendered layouts/_header.html.erb (0.8ms)
+Rendered layouts/_footer.html.erb (0.4ms)
+Rendered users/new.html.erb within layouts/application (19.7ms)
+Completed 200 OK in 29ms (Views: 21.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at 2016-04-05 11:47:12 +0200
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2016-04-05 11:51:34 +0200
+  Processing by UsersController#new as HTML
+Rendered layouts/_stylesheets.html.erb (0.7ms)
+Rendered layouts/_header.html.erb (0.8ms)
+Rendered layouts/_footer.html.erb (0.4ms)
+Rendered users/new.html.erb within layouts/application (9.3ms)
+Completed 200 OK in 20ms (Views: 11.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at 2016-04-05 11:51:34 +0200
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2016-04-05 11:54:35 +0200
+  Processing by UsersController#new as HTML
+Rendered layouts/_stylesheets.html.erb (1.1ms)
+Rendered layouts/_header.html.erb (1.6ms)
+Rendered layouts/_footer.html.erb (0.8ms)
+Rendered users/new.html.erb within layouts/application (44.1ms)
+Completed 200 OK in 66ms (Views: 46.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at 2016-04-05 11:54:35 +0200
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2016-04-05 11:55:40 +0200
+  Processing by UsersController#new as HTML
+Rendered layouts/_stylesheets.html.erb (0.6ms)
+Rendered layouts/_header.html.erb (0.8ms)
+Rendered layouts/_footer.html.erb (0.4ms)
+Rendered users/new.html.erb within layouts/application (23.2ms)
+Completed 200 OK in 34ms (Views: 25.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at 2016-04-05 11:55:40 +0200
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2016-04-05 11:57:46 +0200
+  Processing by UsersController#new as HTML
+Rendered layouts/_stylesheets.html.erb (0.6ms)
+Rendered layouts/_header.html.erb (0.8ms)
+Rendered layouts/_footer.html.erb (0.4ms)
+Rendered users/new.html.erb within layouts/application (27.1ms)
+Completed 200 OK in 37ms (Views: 28.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at 2016-04-05 11:57:46 +0200
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2016-04-05 12:00:22 +0200
+  Processing by UsersController#new as HTML
+Rendered layouts/_stylesheets.html.erb (0.6ms)
+Rendered layouts/_header.html.erb (0.7ms)
+Rendered layouts/_footer.html.erb (0.4ms)
+Rendered users/new.html.erb within layouts/application (9.9ms)
+Completed 200 OK in 34ms (Views: 11.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at 2016-04-05 12:00:22 +0200
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2016-04-05 12:00:52 +0200
+  Processing by UsersController#new as HTML
+Rendered layouts/_stylesheets.html.erb (0.5ms)
+Rendered layouts/_header.html.erb (0.7ms)
+Rendered layouts/_footer.html.erb (0.4ms)
+Rendered users/new.html.erb within layouts/application (22.1ms)
+Completed 200 OK in 35ms (Views: 24.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at 2016-04-05 12:00:52 +0200
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2016-04-05 12:03:18 +0200
+  Processing by UsersController#new as HTML
+Rendered layouts/_stylesheets.html.erb (0.6ms)
+Rendered layouts/_header.html.erb (0.8ms)
+Rendered layouts/_footer.html.erb (0.5ms)
+Rendered users/new.html.erb within layouts/application (10.1ms)
+Completed 200 OK in 20ms (Views: 12.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at 2016-04-05 12:03:18 +0200
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2016-04-05 12:03:56 +0200
+  Processing by UsersController#new as HTML
+Rendered layouts/_stylesheets.html.erb (0.6ms)
+Rendered layouts/_header.html.erb (0.9ms)
+Rendered layouts/_footer.html.erb (0.4ms)
+Rendered users/new.html.erb within layouts/application (10.2ms)
+Completed 200 OK in 34ms (Views: 12.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at 2016-04-05 12:03:56 +0200
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.9ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2016-04-05 12:03:58 +0200
+  Processing by UsersController#new as HTML
+Rendered layouts/_stylesheets.html.erb (0.5ms)
+Rendered layouts/_header.html.erb (0.7ms)
+Rendered layouts/_footer.html.erb (0.5ms)
+Rendered users/new.html.erb within layouts/application (9.8ms)
+Completed 200 OK in 20ms (Views: 11.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at 2016-04-05 12:03:58 +0200
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2016-04-05 12:04:00 +0200
+  Processing by UsersController#new as HTML
+Rendered layouts/_stylesheets.html.erb (0.6ms)
+Rendered layouts/_header.html.erb (0.7ms)
+Rendered layouts/_footer.html.erb (0.4ms)
+Rendered users/new.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 19ms (Views: 11.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at 2016-04-05 12:04:00 +0200
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2016-04-05 12:04:00 +0200
+  Processing by UsersController#new as HTML
+Rendered layouts/_stylesheets.html.erb (0.6ms)
+Rendered layouts/_header.html.erb (0.8ms)
+Rendered layouts/_footer.html.erb (0.4ms)
+Rendered users/new.html.erb within layouts/application (9.9ms)
+Completed 200 OK in 33ms (Views: 11.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at 2016-04-05 12:04:00 +0200
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2016-04-05 12:07:34 +0200
+  Processing by UsersController#new as HTML
+Rendered layouts/_stylesheets.html.erb (0.6ms)
+Rendered layouts/_header.html.erb (0.8ms)
+Rendered layouts/_footer.html.erb (0.4ms)
+Rendered users/new.html.erb within layouts/application (10.5ms)
+Completed 200 OK in 23ms (Views: 12.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at 2016-04-05 12:07:34 +0200
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.5ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2016-04-05 12:12:08 +0200
+  Processing by UsersController#new as HTML
+Rendered users/new.html.erb within layouts/application (6.6ms)
+Completed   in 17ms
+
+ActionView::Template::Error (can not load translations from /home/etudiant/public_html/rails_projects/cc_app/config/locales/en.yml: #<Psych::SyntaxError: (/home/etudiant/public_html/rails_projects/cc_app/config/locales/en.yml): found character that cannot start any token while scanning for the next token at line 7 column 3>):
+    2: 
+    3: <%= form_for(@user) do |f| %>
+    4: 	<div class="field">
+    5: 		<%= f.label :nom %><br />
+    6: 		<%= f.text_field :nom %>
+    7: 	</div>
+    8: 	<div class="field">
+  app/views/users/new.html.erb:5:in `block in _app_views_users_new_html_erb___3196516410167384384_70021795591620__2889136506306380096'
+  app/views/users/new.html.erb:3:in `_app_views_users_new_html_erb___3196516410167384384_70021795591620__2889136506306380096'
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.6ms)
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.5ms)
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (4.1ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2016-04-05 12:14:24 +0200
+  Processing by UsersController#new as HTML
+Rendered users/new.html.erb within layouts/application (7.0ms)
+Completed   in 30ms
+
+ActionView::Template::Error (can not load translations from /home/etudiant/public_html/rails_projects/cc_app/config/locales/en.yml: #<Psych::SyntaxError: (/home/etudiant/public_html/rails_projects/cc_app/config/locales/en.yml): found character that cannot start any token while scanning for the next token at line 7 column 3>):
+    2: 
+    3: <%= form_for(@user) do |f| %>
+    4: 	<div class="field">
+    5: 		<%= f.label :nom %><br />
+    6: 		<%= f.text_field :nom %>
+    7: 	</div>
+    8: 	<div class="field">
+  app/views/users/new.html.erb:5:in `block in _app_views_users_new_html_erb___3196516410167384384_12263920__2889136506306380096'
+  app/views/users/new.html.erb:3:in `_app_views_users_new_html_erb___3196516410167384384_12263920__2889136506306380096'
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.7ms)
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.5ms)
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (4.1ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2016-04-05 12:14:49 +0200
+  Processing by UsersController#new as HTML
+Rendered layouts/_stylesheets.html.erb (0.9ms)
+Rendered layouts/_header.html.erb (1.0ms)
+Rendered layouts/_footer.html.erb (0.5ms)
+Rendered users/new.html.erb within layouts/application (25.2ms)
+Completed 200 OK in 36ms (Views: 27.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at 2016-04-05 12:14:49 +0200
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2016-04-05 12:15:08 +0200
+  Processing by UsersController#new as HTML
+Rendered layouts/_stylesheets.html.erb (0.5ms)
+Rendered layouts/_header.html.erb (0.7ms)
+Rendered layouts/_footer.html.erb (0.5ms)
+Rendered users/new.html.erb within layouts/application (12.7ms)
+Completed 200 OK in 25ms (Views: 14.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at 2016-04-05 12:15:08 +0200
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2016-04-05 12:16:48 +0200
+  Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"8gg8dehTPmv3muxhnvbFg6/6jKGJjWHzUsQwbAHli3k=", "user"=>{"nom"=>"", "email"=>"", "datnaiss(3i)"=>"5", "datnaiss(2i)"=>"1", "datnaiss(1i)"=>"2016", "nbfilms"=>""}, "commit"=>"Inscription"}
+  [1m[36mSQL (0.1ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mUser Load (7.4ms)[0m  SELECT "users"."id" FROM "users" WHERE (LOWER("users"."email") = LOWER('')) LIMIT 1
+Rendered layouts/_stylesheets.html.erb (1.5ms)
+Rendered layouts/_header.html.erb (1.9ms)
+Rendered layouts/_footer.html.erb (0.4ms)
+Rendered users/new.html.erb within layouts/application (41.8ms)
+Completed 200 OK in 147ms (Views: 45.2ms | ActiveRecord: 7.5ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at 2016-04-05 12:16:48 +0200
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2016-04-05 13:06:55 +0200
+
+AbstractController::ActionNotFound (The action 'index' could not be found for UsersController):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.9ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2016-04-05 13:07:16 +0200
+  Processing by UsersController#new as HTML
+Rendered shared/_error_messages.html.erb (0.4ms)
+Rendered layouts/_stylesheets.html.erb (0.6ms)
+Rendered layouts/_header.html.erb (0.8ms)
+Rendered layouts/_footer.html.erb (0.5ms)
+Rendered users/new.html.erb within layouts/application (12.3ms)
+Completed 200 OK in 23ms (Views: 14.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at 2016-04-05 13:07:16 +0200
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2016-04-05 13:07:21 +0200
+  Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"8gg8dehTPmv3muxhnvbFg6/6jKGJjWHzUsQwbAHli3k=", "user"=>{"nom"=>"", "email"=>"", "datnaiss(3i)"=>"5", "datnaiss(2i)"=>"4", "datnaiss(1i)"=>"2016", "nbfilms"=>""}, "commit"=>"Inscription"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users"."id" FROM "users" WHERE (LOWER("users"."email") = LOWER('')) LIMIT 1[0m
+Rendered shared/_error_messages.html.erb (4.0ms)
+Rendered layouts/_stylesheets.html.erb (0.6ms)
+Rendered layouts/_header.html.erb (1.0ms)
+Rendered layouts/_footer.html.erb (0.4ms)
+Rendered users/new.html.erb within layouts/application (14.1ms)
+Completed 200 OK in 31ms (Views: 16.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at 2016-04-05 13:07:21 +0200
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/statistiques" for 127.0.0.1 at 2016-04-05 13:16:28 +0200
+  Processing by PagesController#statistiques as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users"
+Rendered layouts/_stylesheets.html.erb (0.6ms)
+Rendered layouts/_header.html.erb (0.8ms)
+Rendered layouts/_footer.html.erb (0.4ms)
+Rendered pages/statistiques.html.erb within layouts/application (20.1ms)
+Completed 200 OK in 42ms (Views: 21.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at 2016-04-05 13:16:28 +0200
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+  [1m[36mSQL (0.3ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+Migrating to CreateUsers (20160221204207)
+Migrating to AddEmailUniquenessIndex (20160228113541)
+Migrating to AddDatnaissToUsers (20160308125210)
+Migrating to AddNbfilmsToUsers (20160310121530)
+Migrating to AddMoreBooksToUsers (20160310165229)
+Migrating to RemoveMoreBooksFromUsers (20160405112602)
+  [1m[35mSQL (0.0ms)[0m  select sqlite_version(*)
+  [1m[36mSQL (11.2ms)[0m  [1mCREATE TEMPORARY TABLE "altered_users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "nom" varchar(255), "email" varchar(255), "created_at" datetime, "updated_at" datetime, "datnaiss" date, "nbfilms" integer, "moreBooks" boolean) [0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_list("users")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_users_on_email')[0m
+  [1m[35mSQL (0.0ms)[0m  PRAGMA index_list("altered_users")
+  [1m[36mSQL (0.2ms)[0m  [1mCREATE UNIQUE INDEX "temp_index_altered_users_on_email" ON "altered_users" ("email")[0m
+  [1m[35mSQL (0.2ms)[0m  DROP TABLE "users"
+  [1m[36mSQL (0.1ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "nom" varchar(255), "email" varchar(255), "created_at" datetime, "updated_at" datetime, "datnaiss" date, "nbfilms" integer) [0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_list("altered_users")
+  [1m[36mSQL (0.0ms)[0m  [1mPRAGMA index_info('temp_index_altered_users_on_email')[0m
+  [1m[35mSQL (0.0ms)[0m  PRAGMA index_list("users")
+  [1m[36mSQL (0.2ms)[0m  [1mCREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")[0m
+  [1m[35mSQL (0.1ms)[0m  DROP TABLE "altered_users"
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20160405112602')[0m
+  [1m[35mSQL (0.6ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.3ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+  [1m[35mSQL (0.3ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("users")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_users_on_email')
+  [1m[36mSQL (0.3ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+  [1m[35mSQL (0.2ms)[0m  select sqlite_version(*)
+  [1m[36mSQL (0.1ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (83.6ms)[0m  CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "nom" varchar(255), "email" varchar(255), "created_at" datetime, "updated_at" datetime, "datnaiss" date, "nbfilms" integer) 
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("users")[0m
+  [1m[35mSQL (99.7ms)[0m  CREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")
+  [1m[36mSQL (0.3ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (83.1ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36mSQL (0.3ms)[0m  [1mPRAGMA index_list("schema_migrations")[0m
+  [1m[35mSQL (99.4ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36mSQL (0.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36mSQL (75.2ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20160405112602')[0m
+  [1m[35mSQL (74.8ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20160221204207')
+  [1m[36mSQL (77.3ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20160310165229')[0m
+  [1m[35mSQL (108.4ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20160310121530')
+  [1m[36mSQL (91.8ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20160228113541')[0m
+  [1m[35mSQL (75.2ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20160308125210')
+  [1m[36mSQL (0.3ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+Migrating to CreateUsers (20160221204207)
+Migrating to AddEmailUniquenessIndex (20160228113541)
+Migrating to AddDatnaissToUsers (20160308125210)
+Migrating to AddNbfilmsToUsers (20160310121530)
+Migrating to AddMoreBooksToUsers (20160310165229)
+Migrating to RemoveMoreBooksFromUsers (20160405112602)
+Migrating to AddMoreBooksFromUsers (20160405112919)
+  [1m[35mSQL (0.0ms)[0m  select sqlite_version(*)
+  [1m[36mSQL (0.3ms)[0m  [1mALTER TABLE "users" ADD "moreBooks" varchar(255)[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20160405112919')
+  [1m[36mSQL (0.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations"
+  [1m[36mSQL (0.1ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_list("users")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_users_on_email')[0m
+  [1m[36mSQL (0.3ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+  [1m[35mSQL (0.2ms)[0m  select sqlite_version(*)
+  [1m[36mSQL (0.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (83.5ms)[0m  CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "nom" varchar(255), "email" varchar(255), "created_at" datetime, "updated_at" datetime, "datnaiss" date, "nbfilms" integer, "moreBooks" varchar(255)) 
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("users")[0m
+  [1m[35mSQL (91.3ms)[0m  CREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")
+  [1m[36mSQL (0.4ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (90.8ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36mSQL (0.2ms)[0m  [1mPRAGMA index_list("schema_migrations")[0m
+  [1m[35mSQL (82.9ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36mSQL (0.3ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.3ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36mSQL (100.2ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20160405112919')[0m
+  [1m[35mSQL (99.8ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20160221204207')
+  [1m[36mSQL (75.3ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20160310165229')[0m
+  [1m[35mSQL (75.5ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20160405112602')
+  [1m[36mSQL (91.7ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20160310121530')[0m
+  [1m[35mSQL (92.1ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20160228113541')
+  [1m[36mSQL (100.2ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20160308125210')[0m
+
+
+Started GET "/statistiques" for 127.0.0.1 at 2016-04-05 13:31:56 +0200
+  Processing by PagesController#statistiques as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users"[0m
+Rendered layouts/_stylesheets.html.erb (0.6ms)
+Rendered layouts/_header.html.erb (0.8ms)
+Rendered layouts/_footer.html.erb (0.4ms)
+Rendered pages/statistiques.html.erb within layouts/application (21.0ms)
+Completed 200 OK in 32ms (Views: 22.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at 2016-04-05 13:31:56 +0200
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-05 13:34:17 +0200
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (0.6ms)
+Rendered layouts/_header.html.erb (0.7ms)
+Rendered layouts/_footer.html.erb (0.4ms)
+Rendered pages/home.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 6ms (Views: 6.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at 2016-04-05 13:34:17 +0200
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2016-04-05 13:34:18 +0200
+  Processing by UsersController#new as HTML
+Rendered shared/_error_messages.html.erb (0.3ms)
+Rendered layouts/_stylesheets.html.erb (0.6ms)
+Rendered layouts/_header.html.erb (0.8ms)
+Rendered layouts/_footer.html.erb (0.5ms)
+Rendered users/new.html.erb within layouts/application (11.1ms)
+Completed 200 OK in 27ms (Views: 14.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at 2016-04-05 13:34:18 +0200
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2016-04-05 13:34:32 +0200
+  Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"8gg8dehTPmv3muxhnvbFg6/6jKGJjWHzUsQwbAHli3k=", "user"=>{"nom"=>"test", "email"=>"test@test.fr", "datnaiss(3i)"=>"5", "datnaiss(2i)"=>"4", "datnaiss(1i)"=>"1998", "nbfilms"=>"2", "moreBooks"=>"oui"}, "commit"=>"Inscription"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users"."id" FROM "users" WHERE (LOWER("users"."email") = LOWER('test@test.fr')) LIMIT 1
+  [1m[36mAREL (0.2ms)[0m  [1mINSERT INTO "users" ("nom", "email", "created_at", "updated_at", "datnaiss", "nbfilms", "moreBooks") VALUES ('test', 'test@test.fr', '2016-04-05 11:34:32.130004', '2016-04-05 11:34:32.130004', '1998-04-05', 2, 'oui')[0m
+Redirected to http://localhost:3000/users/2
+Completed 302 Found in 126ms
+
+
+Started GET "/users/2" for 127.0.0.1 at 2016-04-05 13:34:32 +0200
+  Processing by UsersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1
+Rendered layouts/_stylesheets.html.erb (0.6ms)
+Rendered layouts/_header.html.erb (0.8ms)
+Rendered layouts/_footer.html.erb (0.5ms)
+Rendered users/show.html.erb within layouts/application (13.8ms)
+Completed 200 OK in 45ms (Views: 23.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at 2016-04-05 13:34:32 +0200
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/statistiques" for 127.0.0.1 at 2016-04-05 13:34:55 +0200
+  Processing by PagesController#statistiques as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users"[0m
+Rendered layouts/_stylesheets.html.erb (0.6ms)
+Rendered layouts/_header.html.erb (0.8ms)
+Rendered layouts/_footer.html.erb (0.4ms)
+Rendered pages/statistiques.html.erb within layouts/application (21.2ms)
+Completed 200 OK in 30ms (Views: 23.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at 2016-04-05 13:34:55 +0200
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/users/2" for 127.0.0.1 at 2016-04-05 13:35:28 +0200
+  Processing by UsersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1
+Rendered layouts/_stylesheets.html.erb (0.6ms)
+Rendered layouts/_header.html.erb (0.7ms)
+Rendered layouts/_footer.html.erb (0.4ms)
+Rendered users/show.html.erb within layouts/application (8.7ms)
+Completed 200 OK in 19ms (Views: 10.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at 2016-04-05 13:35:28 +0200
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/users/2" for 127.0.0.1 at 2016-04-05 13:36:09 +0200
+  Processing by UsersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1[0m
+Rendered layouts/_stylesheets.html.erb (0.7ms)
+Rendered layouts/_header.html.erb (1.0ms)
+Rendered layouts/_footer.html.erb (0.5ms)
+Rendered users/show.html.erb within layouts/application (9.6ms)
+Completed 200 OK in 21ms (Views: 11.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at 2016-04-05 13:36:09 +0200
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/statistiques" for 127.0.0.1 at 2016-04-05 13:36:12 +0200
+  Processing by PagesController#statistiques as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users"
+Rendered layouts/_stylesheets.html.erb (0.6ms)
+Rendered layouts/_header.html.erb (0.8ms)
+Rendered layouts/_footer.html.erb (0.5ms)
+Rendered pages/statistiques.html.erb within layouts/application (21.3ms)
+Completed 200 OK in 30ms (Views: 23.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at 2016-04-05 13:36:12 +0200
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  [1m[35mUser Load (0.7ms)[0m  SELECT "users".* FROM "users" LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users"."id" FROM "users" WHERE (LOWER("users"."email") = LOWER('mhartl@example.com')) AND ("users".id <> 1) LIMIT 1
+  [1m[36mAREL (0.2ms)[0m  [1mUPDATE "users" SET "moreBooks" = 'non', "updated_at" = '2016-04-05 11:43:42.407383' WHERE "users"."id" = 1[0m
+  [1m[35mUser Load (0.8ms)[0m  SELECT "users".* FROM "users"
+
+
+Started GET "/statistiques" for 127.0.0.1 at 2016-04-05 13:52:46 +0200
+  Processing by PagesController#statistiques as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users"[0m
+Rendered layouts/_stylesheets.html.erb (0.5ms)
+Rendered layouts/_header.html.erb (0.7ms)
+Rendered layouts/_footer.html.erb (0.4ms)
+Rendered pages/statistiques.html.erb within layouts/application (8.7ms)
+Completed 200 OK in 20ms (Views: 10.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at 2016-04-05 13:52:46 +0200
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/statistiques" for 127.0.0.1 at 2016-04-05 13:55:19 +0200
+  Processing by PagesController#statistiques as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users"
+Rendered layouts/_stylesheets.html.erb (0.6ms)
+Rendered layouts/_header.html.erb (0.7ms)
+Rendered layouts/_footer.html.erb (0.4ms)
+Rendered pages/statistiques.html.erb within layouts/application (8.8ms)
+Completed 200 OK in 18ms (Views: 10.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at 2016-04-05 13:55:19 +0200
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/statistiques" for 127.0.0.1 at 2016-04-05 13:59:21 +0200
+  Processing by PagesController#statistiques as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users"[0m
+Rendered layouts/_stylesheets.html.erb (0.6ms)
+Rendered layouts/_header.html.erb (0.8ms)
+Rendered layouts/_footer.html.erb (0.5ms)
+Rendered pages/statistiques.html.erb within layouts/application (21.7ms)
+Completed 200 OK in 30ms (Views: 23.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at 2016-04-05 13:59:21 +0200
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/users/2" for 127.0.0.1 at 2016-04-05 13:59:26 +0200
+  Processing by UsersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1
+Rendered layouts/_stylesheets.html.erb (0.5ms)
+Rendered layouts/_header.html.erb (0.8ms)
+Rendered layouts/_footer.html.erb (0.4ms)
+Rendered users/show.html.erb within layouts/application (8.5ms)
+Completed 200 OK in 18ms (Views: 10.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at 2016-04-05 13:59:26 +0200
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-05 14:07:26 +0200
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (0.6ms)
+Rendered layouts/_header.html.erb (0.7ms)
+Rendered layouts/_footer.html.erb (0.4ms)
+Rendered pages/home.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 10ms (Views: 9.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at 2016-04-05 14:07:26 +0200
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2016-04-05 14:07:27 +0200
+  Processing by UsersController#new as HTML
+Rendered shared/_error_messages.html.erb (0.3ms)
+Rendered layouts/_stylesheets.html.erb (0.5ms)
+Rendered layouts/_header.html.erb (0.7ms)
+Rendered layouts/_footer.html.erb (0.4ms)
+Rendered users/new.html.erb within layouts/application (10.5ms)
+Completed 200 OK in 20ms (Views: 12.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at 2016-04-05 14:07:27 +0200
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2016-04-05 14:07:29 +0200
+  Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"8gg8dehTPmv3muxhnvbFg6/6jKGJjWHzUsQwbAHli3k=", "user"=>{"nom"=>"", "email"=>"", "datnaiss(3i)"=>"5", "datnaiss(2i)"=>"4", "datnaiss(1i)"=>"2016", "nbfilms"=>""}, "commit"=>"Inscription"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users"."id" FROM "users" WHERE (LOWER("users"."email") = LOWER('')) LIMIT 1[0m
+Rendered shared/_error_messages.html.erb (2.9ms)
+Rendered layouts/_stylesheets.html.erb (0.6ms)
+Rendered layouts/_header.html.erb (0.8ms)
+Rendered layouts/_footer.html.erb (0.4ms)
+Rendered users/new.html.erb within layouts/application (11.1ms)
+Completed 200 OK in 29ms (Views: 12.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at 2016-04-05 14:07:29 +0200
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2016-04-05 14:41:51 +0200
+  Processing by UsersController#new as HTML
+Rendered shared/_error_messages.html.erb (0.3ms)
+Rendered layouts/_stylesheets.html.erb (0.5ms)
+Rendered layouts/_header.html.erb (0.8ms)
+Rendered layouts/_footer.html.erb (0.4ms)
+Rendered users/new.html.erb within layouts/application (11.1ms)
+Completed 200 OK in 22ms (Views: 13.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at 2016-04-05 14:41:51 +0200
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)

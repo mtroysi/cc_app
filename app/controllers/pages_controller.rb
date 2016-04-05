@@ -18,6 +18,12 @@ class PagesController < ApplicationController
 
   def statistiques
     @users = User.all
+    respond_to do |format|
+      format.html
+      format.pdf { 
+        render :pdf => "statistiques", :layout => 'pdf.html'
+      }
+    end
   end
 
 end

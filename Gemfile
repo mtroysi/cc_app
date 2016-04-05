@@ -7,6 +7,8 @@ gem 'rails', '3.0.5'
 
 gem 'sqlite3'
 gem 'carrierwave'
+gem 'wkhtmltopdf-binary'
+gem 'wicked_pdf'
 
 # Use unicorn as the web server
 # gem 'unicorn'

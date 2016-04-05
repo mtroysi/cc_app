@@ -1,0 +1,23 @@
+table {
+	font-size: 12pt;
+	font-weight: normal;
+	text-align: center;
+	border-width:1px; 
+	border-style:solid; 
+	border-color:black;
+	border-collapse: collapse;
+}
+
+td, th {
+	border-width:1px;
+	border-style:solid; 
+	border-color:black;
+}
+
+th {
+	background-color:silver;
+}
+
+h1 {
+	margin-bottom: 5%;
+}

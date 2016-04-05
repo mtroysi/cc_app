@@ -1,0 +1,21 @@
+<h1>Liste des utilisateurs</h1>
+
+<table>
+	<tr>
+		<th>Nom</th>
+		<th>Email</th>
+		<th>Date de naissance</th>
+		<th>Nombre moyen de films vus par semaine</th>
+		<th>Aimerait lire plus de livres</th>
+	</tr>
+
+	<% @users.each do |user| %>
+	<tr>
+		<td><%= user.nom %></td>
+		<td><%= user.email %></td>
+		<td><%= user.datnaiss.strftime('%d/%m/%Y') %></td>
+		<td><%= user.nbfilms %></td>
+		<td><%= user.moreBooks %></td>
+	</tr>
+	<% end %>
+</table>

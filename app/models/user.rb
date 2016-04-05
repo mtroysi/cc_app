@@ -2,7 +2,8 @@
 require 'date'
 
 class User < ActiveRecord::Base
-	attr_accessible :nom, :email, :datnaiss, :nbfilms, :moreBooks
+	attr_accessible :nom, :email, :datnaiss, :nbfilms, :moreBooks, :cv
+  mount_uploader :cv, CvUploader
 
 	email_regex = /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
 

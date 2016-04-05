@@ -1,6 +1,6 @@
 <h1>Inscription</h1>
 
-<%= form_for(@user) do |f| %>
+<%= form_for @user, :html => { :multipart => true } do |f| %>
 <%= render 'shared/error_messages' %>
 	<div class="field">
 		<%= f.label :nom %><br />
@@ -12,7 +12,7 @@
 	</div>
 	<div class="field">
 		<%= f.label :datnaiss, "Date de naissance" %><br />
-		<%= f.date_select :datnaiss, order: [:day, :month, :year], start_year: 1900, end_year: Date.today.year %>
+		<%= f.date_select :datnaiss, order: [:day, :month, :year], start_year: Date.today.year-100, end_year: Date.today.year %>
 	</div>
 	<div class="field">
 		<%= f.label :datnaiss, "Nombre moyen de films vus par semaine (au cinéma, à la télé, sur ordinateur ou tablette...)" %><br />
@@ -24,6 +24,10 @@
 		<%= f.label(:moreBooks_oui, "Oui") %>
 		<%= f.radio_button(:moreBooks, "non") %>
 		<%= f.label(:moreBooks_non, "Non") %>
+	</div>
+	<div class="field">
+		<%= f.label :cv, "Envoyer le CV au format .pdf" %>
+		<%= f.file_field :cv %>
 	</div>
 	<div class="actions">
 		<%= f.submit "Inscription" %>

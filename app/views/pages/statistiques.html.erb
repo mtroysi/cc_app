@@ -1,7 +1,8 @@
 <h1>Statistiques</h1>
 
 <h2>Liste des utilisateurs</h2>
-<p>Trouvez-moi dans app/views/pages/statistiques.html.erb</p>
+
+<p>TODO: Obtenir la liste des utilisateurs au format PDF</p>
 
 <table>
 	<tr>
@@ -10,6 +11,7 @@
 		<th>Date de naissance</th>
 		<th>Nombre moyen de films vus par semaine</th>
 		<th>Aimerait lire plus de livres</th>
+		<th>CV</th>
 	</tr>
 
 	<% @users.each do |user| %>
@@ -19,6 +21,7 @@
 		<td><%= user.datnaiss.strftime('%d/%m/%Y') %></td>
 		<td><%= user.nbfilms %></td>
 		<td><%= user.moreBooks %></td>
+		<td><% logo = image_tag("PDF.png", :alt => "PDF") %> <%= link_to logo, user.cv.url %></td>
 	</tr>
 	<% end %>
 </table>

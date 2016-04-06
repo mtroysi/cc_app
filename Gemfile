@@ -9,6 +9,7 @@ gem 'sqlite3'
 gem 'carrierwave'
 gem 'wkhtmltopdf-binary'
 gem 'wicked_pdf'
+gem 'gruff'
 
 # Use unicorn as the web server
 # gem 'unicorn'

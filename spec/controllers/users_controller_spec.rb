@@ -11,7 +11,7 @@ render_views
 
 		it "devrait avoir le titre adequat" do
 			get 'new'
-			response.should have_selector("title", :content => "Simple App du Tutoriel Ruby on Rails | Inscription")
+			response.should have_selector("title", :content => "Projet Ruby on Rails | Inscription")
 		end
 	end
 

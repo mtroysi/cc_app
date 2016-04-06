@@ -1,3 +1,4 @@
+# encoding: utf-8
 require 'spec_helper'
 
 describe PagesController do
@@ -10,7 +11,7 @@ describe PagesController do
     it "devrait avoir le bon titre" do
       get 'home'
       response.should have_selector("title",
-                        :content => "Simple App du Tutoriel Ruby on Rails | Accueil")
+                        :content => "Projet Ruby on Rails | Accueil")
     end
   end
 
@@ -23,7 +24,7 @@ describe PagesController do
       get 'contact'
       response.should have_selector("title",
                         :content =>
-                          "Simple App du Tutoriel Ruby on Rails | Contact")
+                          "Projet Ruby on Rails | Contact")
     end
   end
 
@@ -36,7 +37,20 @@ describe PagesController do
       get 'about'
       response.should have_selector("title",
                         :content =>
-                          "Simple App du Tutoriel Ruby on Rails | A Propos")
+                          "Projet Ruby on Rails | A Propos")
+    end
+  end
+
+  describe "GET 'help'" do
+    it "should be successful" do
+      get 'help'
+      response.should be_success
+    end
+    it "devrait avoir le bon titre" do
+      get 'help'
+      response.should have_selector("title",
+                        :content =>
+                          "Projet Ruby on Rails | Aide")
     end
   end
 

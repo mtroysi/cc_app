@@ -19,6 +19,7 @@ class PagesController < ApplicationController
   end
 
   def statistiques
+    @titre = "Statistiques"
     @users = User.all
 
     # Graphe Pourcentage de lecteurs

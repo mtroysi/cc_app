@@ -175,3 +175,17 @@ div.field, div.actions, div.books {
 div.books {
   display: none;
 }
+
+h1 {
+  font-family: 'Shadows Into Light', cursive;
+  text-align: center;
+  font-size: 30pt !important;
+}
+
+p {
+  text-align: center;
+}
+
+.bold {
+  font-weight: bold;
+}

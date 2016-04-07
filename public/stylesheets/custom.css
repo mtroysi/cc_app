@@ -85,6 +85,7 @@ a.signup_button {
   margin-right: auto;
   display: block;
   text-align: center;
+  text-decoration: none;
   width: 190px;
   color: #fff;
   background: #006400;
@@ -188,4 +189,35 @@ p {
 
 .bold {
   font-weight: bold;
+}
+
+/* Bouton PDF */
+a.pdf_button {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  width: 50%;
+  color: #fff;
+  background: #940c0c;
+  font-weight: bold;
+  padding: 10px;
+}
+
+table {
+  font-size: 10pt;
+  font-weight: normal;
+  text-align: center;
+  border-width:1px; 
+  border-style:solid; 
+  border-color:black;
+  border-collapse: collapse;
+}
+
+td, th {
+  border-width:1px;
+  border-style:solid; 
+  border-color:black;
+  text-align: center;
 }

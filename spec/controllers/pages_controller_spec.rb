@@ -54,4 +54,17 @@ describe PagesController do
     end
   end
 
+  describe "GET 'statistiques'" do
+    it "should be successful" do
+      get 'statistiques'
+      response.should be_success
+    end
+    it "devrait avoir le bon titre" do
+      get 'statistiques'
+      response.should have_selector("title",
+                        :content =>
+                          "Projet Ruby on Rails | Statistiques")
+    end
+  end
+
 end

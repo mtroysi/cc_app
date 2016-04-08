@@ -4,6 +4,8 @@
 
 body {
   background: #cff;
+  background-image:url(../images/forest.jpg);
+  background-attachment:fixed;
 }
 
 header {

@@ -11,11 +11,11 @@
 		<%= f.text_field :email %>
 	</div>
 	<div class="field">
-		<%= f.label :datnaiss, "Date de naissance" %><br />
+		<b>Date de naissance</b><br />
 		<%= f.date_select :datnaiss, order: [:day, :month, :year], start_year: Date.today.year-100, end_year: Date.today.year %>
 	</div>
 	<div class="field">
-		<%= f.label :datnaiss, "Nombre moyen de films vus par semaine (au cinéma, à la télé, sur ordinateur ou tablette...)" %><br />
+		<%= f.label :nbfilms, "Nombre moyen de films vus par semaine (au cinéma, à la télé, sur ordinateur ou tablette...)" %><br />
 		<%= f.text_field :nbfilms %>
 	</div>
 	<div class="books">

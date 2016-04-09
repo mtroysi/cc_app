@@ -10,6 +10,8 @@ gem 'carrierwave'
 gem 'wkhtmltopdf-binary'
 gem 'wicked_pdf'
 gem 'gruff'
+gem 'test-unit'
+gem 'minitest'
 
 # Use unicorn as the web server
 # gem 'unicorn'
